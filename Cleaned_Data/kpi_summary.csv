@@ -1,0 +1,16 @@
+KPI,Value,Definition
+Total Revenue (Completed orders),NGN 2.50B,"Sum of line_total, Completed orders only"
+Gross Order Value (all statuses),NGN 7.58B,"Sum of line_total across all 50,000 orders"
+Total Orders (all statuses),"50,000",Rows in Orders
+Completed Orders,"16,529",order_status = Completed
+Total Customers (registered),"5,000",Unique customer_id in Customers
+Active Customers (>=1 completed order),"4,795",Unique customers in Completed orders
+Total Products (catalogue),500,Unique product_id in Products
+Products Sold (Completed orders),500,Unique products in Completed orders
+Total Stores,25,Unique store_id in Stores
+Average Order Value (AOV),NGN 151K,Revenue / completed orders
+Average Selling Price (per unit sold),NGN 50K,Mean unit_price on Completed orders
+Average Catalogue Selling Price,NGN 36K,Mean selling_price in Products
+Total Quantity Sold (units),"49,432","Sum of quantity, Completed orders"
+Return Rate,4.88%,Orders with a return / all orders
+Inventory Value (at cost),NGN 3.17B,Sum of stock_on_hand x cost_price

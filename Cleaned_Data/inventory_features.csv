@@ -1,0 +1,501 @@
+inventory_id,product_id,store_id,stock_on_hand,reorder_level,last_restock_date,product_name,category,brand,cost_price,store_name,store_city,store_state,region,inventory_value,stock_cover_ratio,inventory_status,units_below_reorder,days_since_restock
+INV00001,PROD0001,STR002,94,26,2026-08-16,Beauty Item 1,Beauty,Zuniga PLC,44803,ShopSmart Kano,Kano,Kano,West,4211482,3.6153846153846154,Medium,0,55
+INV00002,PROD0002,STR021,338,17,2026-08-27,Beauty Item 2,Beauty,Olson-Rosales,11728,ShopSmart Lagos,Lagos,Lagos,West,3964064,19.88235294117647,High,0,44
+INV00003,PROD0003,STR007,178,27,2026-09-26,Electronics Item 3,Electronics,"Mosley, Watson and Middleton",39383,ShopSmart Ibadan,Ibadan,Oyo,North,7010174,6.592592592592593,High,0,14
+INV00004,PROD0004,STR004,482,38,2026-08-30,Home Item 4,Home,Wood Ltd,8908,ShopSmart Asaba,Asaba,Delta,South,4293656,12.68421052631579,High,0,41
+INV00005,PROD0005,STR015,76,16,2026-09-21,Home Item 5,Home,Padilla-Blake,47918,ShopSmart Lagos,Lagos,Lagos,North,3641768,4.75,Medium,0,19
+INV00006,PROD0006,STR001,235,23,2026-08-25,Beauty Item 6,Beauty,Cohen-Montoya,44344,ShopSmart Abuja,Abuja,Abuja,East,10420840,10.217391304347826,High,0,46
+INV00007,PROD0007,STR005,114,49,2026-08-07,Beauty Item 7,Beauty,Cruz-Stanley,38683,ShopSmart Enugu,Enugu,Enugu,South,4409862,2.326530612244898,Medium,0,64
+INV00008,PROD0008,STR022,376,30,2026-08-11,Fashion Item 8,Fashion,Scott Group,7037,ShopSmart Awka,Awka,Anambra,East,2645912,12.533333333333333,High,0,60
+INV00009,PROD0009,STR007,55,13,2026-08-01,Electronics Item 9,Electronics,Moore Ltd,1022,ShopSmart Ibadan,Ibadan,Oyo,North,56210,4.230769230769231,Medium,0,70
+INV00010,PROD0010,STR016,357,33,2026-09-16,Beauty Item 10,Beauty,Wagner-Williams,29699,ShopSmart Abeokuta,Abeokuta,Ogun,East,10602543,10.818181818181818,High,0,24
+INV00011,PROD0011,STR018,192,23,2026-08-14,Groceries Item 11,Groceries,Barnes-Sanchez,8046,ShopSmart Ibadan,Ibadan,Oyo,East,1544832,8.347826086956522,High,0,57
+INV00012,PROD0012,STR023,296,10,2026-09-17,Electronics Item 12,Electronics,Williams-Pollard,31887,ShopSmart Abuja,Abuja,Abuja,South,9438552,29.6,High,0,23
+INV00013,PROD0013,STR009,12,20,2026-10-09,Beauty Item 13,Beauty,Adams-Middleton,23289,ShopSmart Ibadan,Ibadan,Oyo,South,279468,0.6,Low,8,1
+INV00014,PROD0014,STR020,190,28,2026-10-04,Home Item 14,Home,Miller-Stone,24783,ShopSmart Asaba,Asaba,Delta,North,4708770,6.785714285714286,High,0,6
+INV00015,PROD0015,STR024,169,25,2026-07-14,Beauty Item 15,Beauty,Harding PLC,9144,ShopSmart Ibadan,Ibadan,Oyo,East,1545336,6.76,High,0,88
+INV00016,PROD0016,STR022,404,44,2026-08-19,Groceries Item 16,Groceries,"Miller, Salazar and Wiggins",2943,ShopSmart Awka,Awka,Anambra,East,1188972,9.181818181818182,High,0,52
+INV00017,PROD0017,STR008,182,31,2026-08-17,Electronics Item 17,Electronics,Dyer LLC,20276,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,3690232,5.870967741935484,High,0,54
+INV00018,PROD0018,STR003,322,35,2026-10-06,Home Item 18,Home,George-Burgess,20448,ShopSmart Lagos,Lagos,Lagos,South,6584256,9.2,High,0,4
+INV00019,PROD0019,STR024,315,25,2026-09-23,Electronics Item 19,Electronics,"Flores, Russell and Schwartz",10224,ShopSmart Ibadan,Ibadan,Oyo,East,3220560,12.6,High,0,17
+INV00020,PROD0020,STR020,67,22,2026-09-24,Groceries Item 20,Groceries,"Hernandez, Hill and Hammond",37630,ShopSmart Asaba,Asaba,Delta,North,2521210,3.0454545454545454,Medium,0,16
+INV00021,PROD0021,STR008,429,29,2026-07-17,Electronics Item 21,Electronics,Campbell Inc,9769,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,4190901,14.793103448275861,High,0,85
+INV00022,PROD0022,STR022,460,34,2026-10-08,Fashion Item 22,Fashion,Maddox-Cox,7488,ShopSmart Awka,Awka,Anambra,East,3444480,13.529411764705882,High,0,2
+INV00023,PROD0023,STR014,78,47,2026-09-30,Electronics Item 23,Electronics,"Simpson, Khan and Freeman",13871,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,1081938,1.6595744680851063,Medium,0,10
+INV00024,PROD0024,STR014,23,17,2026-08-17,Home Item 24,Home,Vance PLC,22344,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,513912,1.3529411764705883,Medium,0,54
+INV00025,PROD0025,STR019,424,6,2026-09-29,Fashion Item 25,Fashion,"Marsh, Brown and Lynch",35153,ShopSmart Kaduna,Kaduna,Kaduna,South,14904872,70.66666666666667,High,0,11
+INV00026,PROD0026,STR016,259,7,2026-08-21,Home Item 26,Home,Reynolds and Sons,12972,ShopSmart Abeokuta,Abeokuta,Ogun,East,3359748,37.0,High,0,50
+INV00027,PROD0027,STR008,220,9,2026-10-04,Fashion Item 27,Fashion,"Hernandez, Daniels and Adams",41656,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,9164320,24.444444444444443,High,0,6
+INV00028,PROD0028,STR018,118,30,2026-07-13,Home Item 28,Home,"Robinson, Baker and Knight",651,ShopSmart Ibadan,Ibadan,Oyo,East,76818,3.933333333333333,Medium,0,89
+INV00029,PROD0029,STR016,484,9,2026-09-08,Home Item 29,Home,"Orozco, Garner and Mccormick",5669,ShopSmart Abeokuta,Abeokuta,Ogun,East,2743796,53.77777777777778,High,0,32
+INV00030,PROD0030,STR018,211,25,2026-08-26,Beauty Item 30,Beauty,Lee-Spencer,14813,ShopSmart Ibadan,Ibadan,Oyo,East,3125543,8.44,High,0,45
+INV00031,PROD0031,STR024,253,21,2026-09-11,Fashion Item 31,Fashion,Anderson Ltd,46756,ShopSmart Ibadan,Ibadan,Oyo,East,11829268,12.047619047619047,High,0,29
+INV00032,PROD0032,STR012,155,13,2026-09-07,Fashion Item 32,Fashion,"Vazquez, Wells and Bautista",12896,ShopSmart Abeokuta,Abeokuta,Ogun,South,1998880,11.923076923076923,High,0,33
+INV00033,PROD0033,STR016,312,28,2026-07-30,Fashion Item 33,Fashion,"Velasquez, Anderson and Morgan",26488,ShopSmart Abeokuta,Abeokuta,Ogun,East,8264256,11.142857142857142,High,0,72
+INV00034,PROD0034,STR013,39,15,2026-09-19,Electronics Item 34,Electronics,"Smith, Vega and Wilson",5249,ShopSmart Lagos,Lagos,Lagos,East,204711,2.6,Medium,0,21
+INV00035,PROD0035,STR024,163,31,2026-09-18,Beauty Item 35,Beauty,Carpenter-Hampton,36592,ShopSmart Ibadan,Ibadan,Oyo,East,5964496,5.258064516129032,High,0,22
+INV00036,PROD0036,STR004,403,34,2026-09-17,Groceries Item 36,Groceries,Weber Ltd,19939,ShopSmart Asaba,Asaba,Delta,South,8035417,11.852941176470589,High,0,23
+INV00037,PROD0037,STR015,370,5,2026-10-01,Groceries Item 37,Groceries,Zavala Ltd,27199,ShopSmart Lagos,Lagos,Lagos,North,10063630,74.0,High,0,9
+INV00038,PROD0038,STR010,58,35,2026-07-29,Groceries Item 38,Groceries,Jones Group,2694,ShopSmart Abuja,Abuja,Abuja,North,156252,1.6571428571428573,Medium,0,73
+INV00039,PROD0039,STR011,211,42,2026-08-28,Groceries Item 39,Groceries,Thomas Ltd,20817,ShopSmart Kaduna,Kaduna,Kaduna,West,4392387,5.023809523809524,High,0,43
+INV00040,PROD0040,STR010,65,30,2026-08-28,Groceries Item 40,Groceries,"Johnson, Moody and Carter",17875,ShopSmart Abuja,Abuja,Abuja,North,1161875,2.1666666666666665,Medium,0,43
+INV00041,PROD0041,STR016,22,18,2026-08-05,Electronics Item 41,Electronics,Miller-Dixon,1726,ShopSmart Abeokuta,Abeokuta,Ogun,East,37972,1.2222222222222223,Medium,0,66
+INV00042,PROD0042,STR017,494,8,2026-09-07,Home Item 42,Home,Freeman Inc,47306,ShopSmart Abuja,Abuja,Abuja,South,23369164,61.75,High,0,33
+INV00043,PROD0043,STR006,215,33,2026-10-08,Beauty Item 43,Beauty,Montes LLC,49091,ShopSmart Kaduna,Kaduna,Kaduna,East,10554565,6.515151515151516,High,0,2
+INV00044,PROD0044,STR009,387,21,2026-08-01,Home Item 44,Home,Rivers-Nichols,35907,ShopSmart Ibadan,Ibadan,Oyo,South,13896009,18.428571428571427,High,0,70
+INV00045,PROD0045,STR002,372,35,2026-07-21,Electronics Item 45,Electronics,"Franklin, Walker and Smith",36686,ShopSmart Kano,Kano,Kano,West,13647192,10.628571428571428,High,0,81
+INV00046,PROD0046,STR010,70,35,2026-07-16,Fashion Item 46,Fashion,Carpenter-Kim,47080,ShopSmart Abuja,Abuja,Abuja,North,3295600,2.0,Medium,0,86
+INV00047,PROD0047,STR023,134,35,2026-09-15,Groceries Item 47,Groceries,Dixon-Smith,37795,ShopSmart Abuja,Abuja,Abuja,South,5064530,3.8285714285714287,Medium,0,25
+INV00048,PROD0048,STR014,156,7,2026-09-14,Home Item 48,Home,Decker Inc,49865,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,7778940,22.285714285714285,High,0,26
+INV00049,PROD0049,STR022,450,39,2026-09-06,Electronics Item 49,Electronics,"Ford, Robinson and Henry",10526,ShopSmart Awka,Awka,Anambra,East,4736700,11.538461538461538,High,0,34
+INV00050,PROD0050,STR007,251,50,2026-08-17,Electronics Item 50,Electronics,"Moore, Rivers and Murray",42877,ShopSmart Ibadan,Ibadan,Oyo,North,10762127,5.02,High,0,54
+INV00051,PROD0051,STR002,409,48,2026-09-22,Home Item 51,Home,"Peterson, Berry and Cook",29214,ShopSmart Kano,Kano,Kano,West,11948526,8.520833333333334,High,0,18
+INV00052,PROD0052,STR017,277,25,2026-07-29,Electronics Item 52,Electronics,"Martinez, Rice and Perry",31027,ShopSmart Abuja,Abuja,Abuja,South,8594479,11.08,High,0,73
+INV00053,PROD0053,STR013,308,25,2026-09-04,Electronics Item 53,Electronics,"Medina, Drake and Torres",20298,ShopSmart Lagos,Lagos,Lagos,East,6251784,12.32,High,0,36
+INV00054,PROD0054,STR005,456,19,2026-09-10,Fashion Item 54,Fashion,Nichols LLC,4330,ShopSmart Enugu,Enugu,Enugu,South,1974480,24.0,High,0,30
+INV00055,PROD0055,STR005,370,35,2026-07-20,Beauty Item 55,Beauty,"Webster, Luna and Taylor",24526,ShopSmart Enugu,Enugu,Enugu,South,9074620,10.571428571428571,High,0,82
+INV00056,PROD0056,STR009,129,35,2026-10-09,Groceries Item 56,Groceries,"Goodwin, Hanson and Wilson",11115,ShopSmart Ibadan,Ibadan,Oyo,South,1433835,3.6857142857142855,Medium,0,1
+INV00057,PROD0057,STR023,57,11,2026-08-11,Beauty Item 57,Beauty,Nielsen-Clark,18871,ShopSmart Abuja,Abuja,Abuja,South,1075647,5.181818181818182,High,0,60
+INV00058,PROD0058,STR001,294,16,2026-08-03,Fashion Item 58,Fashion,Hill-Parker,12373,ShopSmart Abuja,Abuja,Abuja,East,3637662,18.375,High,0,68
+INV00059,PROD0059,STR002,11,23,2026-07-21,Fashion Item 59,Fashion,Stone PLC,48330,ShopSmart Kano,Kano,Kano,West,531630,0.4782608695652174,Low,12,81
+INV00060,PROD0060,STR010,444,23,2026-09-23,Groceries Item 60,Groceries,"Hughes, Marks and Lopez",13539,ShopSmart Abuja,Abuja,Abuja,North,6011316,19.304347826086957,High,0,17
+INV00061,PROD0061,STR020,434,37,2026-09-12,Beauty Item 61,Beauty,Vargas-Davis,10547,ShopSmart Asaba,Asaba,Delta,North,4577398,11.72972972972973,High,0,28
+INV00062,PROD0062,STR007,406,12,2026-08-16,Groceries Item 62,Groceries,Choi Ltd,1110,ShopSmart Ibadan,Ibadan,Oyo,North,450660,33.833333333333336,High,0,55
+INV00063,PROD0063,STR009,481,41,2026-07-13,Groceries Item 63,Groceries,Jones-Brown,22139,ShopSmart Ibadan,Ibadan,Oyo,South,10648859,11.731707317073171,High,0,89
+INV00064,PROD0064,STR004,145,5,2026-08-09,Electronics Item 64,Electronics,Henderson-Potter,14624,ShopSmart Asaba,Asaba,Delta,South,2120480,29.0,High,0,62
+INV00065,PROD0065,STR001,79,37,2026-07-25,Electronics Item 65,Electronics,"Tyler, Salazar and Mitchell",15555,ShopSmart Abuja,Abuja,Abuja,East,1228845,2.135135135135135,Medium,0,77
+INV00066,PROD0066,STR017,55,24,2026-09-07,Groceries Item 66,Groceries,Foley-Jacobs,17122,ShopSmart Abuja,Abuja,Abuja,South,941710,2.2916666666666665,Medium,0,33
+INV00067,PROD0067,STR006,184,16,2026-07-23,Home Item 67,Home,Johnson-Johnson,4938,ShopSmart Kaduna,Kaduna,Kaduna,East,908592,11.5,High,0,79
+INV00068,PROD0068,STR012,277,21,2026-09-04,Electronics Item 68,Electronics,Deleon and Sons,44430,ShopSmart Abeokuta,Abeokuta,Ogun,South,12307110,13.19047619047619,High,0,36
+INV00069,PROD0069,STR009,57,38,2026-08-18,Home Item 69,Home,Burke-Turner,24433,ShopSmart Ibadan,Ibadan,Oyo,South,1392681,1.5,Medium,0,53
+INV00070,PROD0070,STR006,487,11,2026-07-17,Electronics Item 70,Electronics,Delgado LLC,29174,ShopSmart Kaduna,Kaduna,Kaduna,East,14207738,44.27272727272727,High,0,85
+INV00071,PROD0071,STR016,485,10,2026-08-17,Groceries Item 71,Groceries,Johnson PLC,31851,ShopSmart Abeokuta,Abeokuta,Ogun,East,15447735,48.5,High,0,54
+INV00072,PROD0072,STR022,480,25,2026-10-05,Fashion Item 72,Fashion,Hopkins Inc,49711,ShopSmart Awka,Awka,Anambra,East,23861280,19.2,High,0,5
+INV00073,PROD0073,STR025,313,35,2026-08-10,Groceries Item 73,Groceries,Coleman-Cantrell,49546,ShopSmart Asaba,Asaba,Delta,West,15507898,8.942857142857143,High,0,61
+INV00074,PROD0074,STR012,393,27,2026-07-26,Fashion Item 74,Fashion,Gutierrez-Mccullough,42558,ShopSmart Abeokuta,Abeokuta,Ogun,South,16725294,14.555555555555555,High,0,76
+INV00075,PROD0075,STR006,279,13,2026-07-18,Electronics Item 75,Electronics,Mendez Inc,5627,ShopSmart Kaduna,Kaduna,Kaduna,East,1569933,21.46153846153846,High,0,84
+INV00076,PROD0076,STR004,304,31,2026-10-09,Groceries Item 76,Groceries,Kim-Carlson,15627,ShopSmart Asaba,Asaba,Delta,South,4750608,9.806451612903226,High,0,1
+INV00077,PROD0077,STR010,487,16,2026-07-20,Beauty Item 77,Beauty,Jennings-Evans,17428,ShopSmart Abuja,Abuja,Abuja,North,8487436,30.4375,High,0,82
+INV00078,PROD0078,STR016,443,38,2026-08-22,Groceries Item 78,Groceries,Lin-Wheeler,15900,ShopSmart Abeokuta,Abeokuta,Ogun,East,7043700,11.657894736842104,High,0,49
+INV00079,PROD0079,STR001,153,32,2026-10-05,Fashion Item 79,Fashion,Perez Inc,47472,ShopSmart Abuja,Abuja,Abuja,East,7263216,4.78125,Medium,0,5
+INV00080,PROD0080,STR010,305,26,2026-08-24,Groceries Item 80,Groceries,Thompson and Sons,3558,ShopSmart Abuja,Abuja,Abuja,North,1085190,11.73076923076923,High,0,47
+INV00081,PROD0081,STR002,280,28,2026-09-23,Fashion Item 81,Fashion,"Stevens, Blackburn and Wells",30545,ShopSmart Kano,Kano,Kano,West,8552600,10.0,High,0,17
+INV00082,PROD0082,STR004,202,23,2026-08-09,Beauty Item 82,Beauty,"Harris, Glass and Welch",49088,ShopSmart Asaba,Asaba,Delta,South,9915776,8.782608695652174,High,0,62
+INV00083,PROD0083,STR017,437,17,2026-07-13,Electronics Item 83,Electronics,Cummings-Warren,6455,ShopSmart Abuja,Abuja,Abuja,South,2820835,25.705882352941178,High,0,89
+INV00084,PROD0084,STR017,78,11,2026-09-12,Groceries Item 84,Groceries,Cooper-Harris,11209,ShopSmart Abuja,Abuja,Abuja,South,874302,7.090909090909091,High,0,28
+INV00085,PROD0085,STR018,308,21,2026-08-03,Groceries Item 85,Groceries,"Rios, Burns and Floyd",19680,ShopSmart Ibadan,Ibadan,Oyo,East,6061440,14.666666666666666,High,0,68
+INV00086,PROD0086,STR003,134,46,2026-09-02,Fashion Item 86,Fashion,"Vargas, Erickson and Brown",4333,ShopSmart Lagos,Lagos,Lagos,South,580622,2.9130434782608696,Medium,0,38
+INV00087,PROD0087,STR004,77,30,2026-10-08,Home Item 87,Home,Fischer-Smith,17470,ShopSmart Asaba,Asaba,Delta,South,1345190,2.566666666666667,Medium,0,2
+INV00088,PROD0088,STR005,328,18,2026-08-18,Beauty Item 88,Beauty,"Williams, Jones and Harris",30814,ShopSmart Enugu,Enugu,Enugu,South,10106992,18.22222222222222,High,0,53
+INV00089,PROD0089,STR001,41,47,2026-07-25,Electronics Item 89,Electronics,"Mills, Nelson and Burke",31713,ShopSmart Abuja,Abuja,Abuja,East,1300233,0.8723404255319149,Low,6,77
+INV00090,PROD0090,STR016,309,8,2026-09-14,Home Item 90,Home,"Whitney, Johnson and Smith",21544,ShopSmart Abeokuta,Abeokuta,Ogun,East,6657096,38.625,High,0,26
+INV00091,PROD0091,STR008,405,43,2026-09-29,Home Item 91,Home,Boyd-Smith,7438,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,3012390,9.418604651162791,High,0,11
+INV00092,PROD0092,STR020,292,8,2026-08-31,Beauty Item 92,Beauty,Townsend PLC,12485,ShopSmart Asaba,Asaba,Delta,North,3645620,36.5,High,0,40
+INV00093,PROD0093,STR017,415,49,2026-09-22,Electronics Item 93,Electronics,Baxter Group,25817,ShopSmart Abuja,Abuja,Abuja,South,10714055,8.46938775510204,High,0,18
+INV00094,PROD0094,STR004,319,45,2026-07-25,Beauty Item 94,Beauty,Caldwell-Wright,15402,ShopSmart Asaba,Asaba,Delta,South,4913238,7.088888888888889,High,0,77
+INV00095,PROD0095,STR014,156,21,2026-10-06,Home Item 95,Home,Johnston-Andersen,10598,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,1653288,7.428571428571429,High,0,4
+INV00096,PROD0096,STR017,413,15,2026-08-07,Home Item 96,Home,Greene-Jarvis,41717,ShopSmart Abuja,Abuja,Abuja,South,17229121,27.533333333333335,High,0,64
+INV00097,PROD0097,STR010,464,9,2026-10-02,Beauty Item 97,Beauty,Rangel Group,4700,ShopSmart Abuja,Abuja,Abuja,North,2180800,51.55555555555556,High,0,8
+INV00098,PROD0098,STR015,441,32,2026-08-22,Fashion Item 98,Fashion,Moore LLC,39742,ShopSmart Lagos,Lagos,Lagos,North,17526222,13.78125,High,0,49
+INV00099,PROD0099,STR002,207,19,2026-09-30,Beauty Item 99,Beauty,"Moore, Simmons and King",45594,ShopSmart Kano,Kano,Kano,West,9437958,10.894736842105264,High,0,10
+INV00100,PROD0100,STR004,155,5,2026-09-17,Home Item 100,Home,Garcia PLC,35481,ShopSmart Asaba,Asaba,Delta,South,5499555,31.0,High,0,23
+INV00101,PROD0101,STR012,468,49,2026-08-10,Fashion Item 101,Fashion,Thomas-Bryant,33735,ShopSmart Abeokuta,Abeokuta,Ogun,South,15787980,9.551020408163266,High,0,61
+INV00102,PROD0102,STR025,416,39,2026-09-20,Groceries Item 102,Groceries,Myers Inc,16713,ShopSmart Asaba,Asaba,Delta,West,6952608,10.666666666666666,High,0,20
+INV00103,PROD0103,STR017,19,17,2026-08-10,Groceries Item 103,Groceries,Mckinney PLC,30080,ShopSmart Abuja,Abuja,Abuja,South,571520,1.1176470588235294,Medium,0,61
+INV00104,PROD0104,STR006,395,19,2026-10-04,Electronics Item 104,Electronics,"Lamb, Lopez and Bryant",12709,ShopSmart Kaduna,Kaduna,Kaduna,East,5020055,20.789473684210527,High,0,6
+INV00105,PROD0105,STR002,299,13,2026-09-11,Electronics Item 105,Electronics,Jones Ltd,6132,ShopSmart Kano,Kano,Kano,West,1833468,23.0,High,0,29
+INV00106,PROD0106,STR021,258,10,2026-09-12,Electronics Item 106,Electronics,"Williams, Williams and Greene",35294,ShopSmart Lagos,Lagos,Lagos,West,9105852,25.8,High,0,28
+INV00107,PROD0107,STR014,21,26,2026-09-02,Beauty Item 107,Beauty,"Carter, Hernandez and Schmidt",3250,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,68250,0.8076923076923077,Low,5,38
+INV00108,PROD0108,STR014,486,32,2026-09-16,Fashion Item 108,Fashion,Myers and Sons,45612,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,22167432,15.1875,High,0,24
+INV00109,PROD0109,STR008,483,12,2026-09-12,Beauty Item 109,Beauty,Roberts-Moreno,3776,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,1823808,40.25,High,0,28
+INV00110,PROD0110,STR021,258,30,2026-08-21,Electronics Item 110,Electronics,Christian-Steele,30280,ShopSmart Lagos,Lagos,Lagos,West,7812240,8.6,High,0,50
+INV00111,PROD0111,STR008,457,41,2026-07-18,Home Item 111,Home,"Lucas, Fisher and Duncan",19593,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,8954001,11.146341463414634,High,0,84
+INV00112,PROD0112,STR017,293,6,2026-08-22,Groceries Item 112,Groceries,"Smith, Nelson and Ortiz",39707,ShopSmart Abuja,Abuja,Abuja,South,11634151,48.833333333333336,High,0,49
+INV00113,PROD0113,STR018,172,23,2026-07-20,Electronics Item 113,Electronics,"Nash, Richmond and Rhodes",39019,ShopSmart Ibadan,Ibadan,Oyo,East,6711268,7.478260869565218,High,0,82
+INV00114,PROD0114,STR025,344,15,2026-09-15,Beauty Item 114,Beauty,Figueroa Ltd,17003,ShopSmart Asaba,Asaba,Delta,West,5849032,22.933333333333334,High,0,25
+INV00115,PROD0115,STR012,324,42,2026-07-24,Groceries Item 115,Groceries,Diaz-Martin,39702,ShopSmart Abeokuta,Abeokuta,Ogun,South,12863448,7.714285714285714,High,0,78
+INV00116,PROD0116,STR022,381,39,2026-09-11,Electronics Item 116,Electronics,Sims PLC,32874,ShopSmart Awka,Awka,Anambra,East,12524994,9.76923076923077,High,0,29
+INV00117,PROD0117,STR004,206,29,2026-09-16,Groceries Item 117,Groceries,Robertson LLC,9812,ShopSmart Asaba,Asaba,Delta,South,2021272,7.103448275862069,High,0,24
+INV00118,PROD0118,STR013,233,34,2026-09-22,Home Item 118,Home,Cooke Inc,49549,ShopSmart Lagos,Lagos,Lagos,East,11544917,6.852941176470588,High,0,18
+INV00119,PROD0119,STR005,72,40,2026-07-19,Groceries Item 119,Groceries,"Becker, Williams and Barnes",37040,ShopSmart Enugu,Enugu,Enugu,South,2666880,1.8,Medium,0,83
+INV00120,PROD0120,STR017,330,5,2026-09-18,Groceries Item 120,Groceries,Ward LLC,1906,ShopSmart Abuja,Abuja,Abuja,South,628980,66.0,High,0,22
+INV00121,PROD0121,STR020,296,41,2026-09-20,Fashion Item 121,Fashion,Vasquez-Russell,10307,ShopSmart Asaba,Asaba,Delta,North,3050872,7.219512195121951,High,0,20
+INV00122,PROD0122,STR007,202,48,2026-07-25,Home Item 122,Home,"Oneill, Bender and Mills",12044,ShopSmart Ibadan,Ibadan,Oyo,North,2432888,4.208333333333333,Medium,0,77
+INV00123,PROD0123,STR012,296,6,2026-07-15,Fashion Item 123,Fashion,"Rodriguez, Cuevas and Johnson",45398,ShopSmart Abeokuta,Abeokuta,Ogun,South,13437808,49.333333333333336,High,0,87
+INV00124,PROD0124,STR007,387,25,2026-09-09,Beauty Item 124,Beauty,Briggs-Knapp,42839,ShopSmart Ibadan,Ibadan,Oyo,North,16578693,15.48,High,0,31
+INV00125,PROD0125,STR007,195,30,2026-08-31,Groceries Item 125,Groceries,Mcknight Group,13299,ShopSmart Ibadan,Ibadan,Oyo,North,2593305,6.5,High,0,40
+INV00126,PROD0126,STR020,45,35,2026-08-25,Electronics Item 126,Electronics,"Smith, Gonzalez and Cooper",45874,ShopSmart Asaba,Asaba,Delta,North,2064330,1.2857142857142858,Medium,0,46
+INV00127,PROD0127,STR015,162,38,2026-10-01,Groceries Item 127,Groceries,Sandoval-Hamilton,13761,ShopSmart Lagos,Lagos,Lagos,North,2229282,4.2631578947368425,Medium,0,9
+INV00128,PROD0128,STR013,299,46,2026-08-15,Fashion Item 128,Fashion,"Robinson, Browning and Lee",20294,ShopSmart Lagos,Lagos,Lagos,East,6067906,6.5,High,0,56
+INV00129,PROD0129,STR014,305,25,2026-08-05,Electronics Item 129,Electronics,"Callahan, Mejia and Fisher",20470,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,6243350,12.2,High,0,66
+INV00130,PROD0130,STR003,497,28,2026-08-14,Beauty Item 130,Beauty,Smith-Kline,33208,ShopSmart Lagos,Lagos,Lagos,South,16504376,17.75,High,0,57
+INV00131,PROD0131,STR009,297,43,2026-10-06,Beauty Item 131,Beauty,Davis-Simpson,22165,ShopSmart Ibadan,Ibadan,Oyo,South,6583005,6.906976744186046,High,0,4
+INV00132,PROD0132,STR004,48,14,2026-10-06,Home Item 132,Home,Williams-Rodriguez,1863,ShopSmart Asaba,Asaba,Delta,South,89424,3.4285714285714284,Medium,0,4
+INV00133,PROD0133,STR013,446,39,2026-08-12,Electronics Item 133,Electronics,Snyder-Nash,25022,ShopSmart Lagos,Lagos,Lagos,East,11159812,11.435897435897436,High,0,59
+INV00134,PROD0134,STR017,98,31,2026-10-02,Home Item 134,Home,"Roberts, Porter and Roberts",33758,ShopSmart Abuja,Abuja,Abuja,South,3308284,3.161290322580645,Medium,0,8
+INV00135,PROD0135,STR015,98,42,2026-09-12,Electronics Item 135,Electronics,Miller-Garcia,40613,ShopSmart Lagos,Lagos,Lagos,North,3980074,2.3333333333333335,Medium,0,28
+INV00136,PROD0136,STR013,211,44,2026-09-03,Fashion Item 136,Fashion,Steele Group,12916,ShopSmart Lagos,Lagos,Lagos,East,2725276,4.795454545454546,Medium,0,37
+INV00137,PROD0137,STR013,174,44,2026-08-09,Home Item 137,Home,"Miller, Shannon and Johnson",33060,ShopSmart Lagos,Lagos,Lagos,East,5752440,3.9545454545454546,Medium,0,62
+INV00138,PROD0138,STR017,115,29,2026-08-24,Groceries Item 138,Groceries,Mcgrath Group,26534,ShopSmart Abuja,Abuja,Abuja,South,3051410,3.9655172413793105,Medium,0,47
+INV00139,PROD0139,STR022,467,21,2026-08-09,Groceries Item 139,Groceries,Berry-Wilson,10983,ShopSmart Awka,Awka,Anambra,East,5129061,22.238095238095237,High,0,62
+INV00140,PROD0140,STR006,498,25,2026-07-29,Beauty Item 140,Beauty,Mckenzie Group,49067,ShopSmart Kaduna,Kaduna,Kaduna,East,24435366,19.92,High,0,73
+INV00141,PROD0141,STR008,458,38,2026-07-26,Groceries Item 141,Groceries,"Myers, West and Thomas",18064,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,8273312,12.052631578947368,High,0,76
+INV00142,PROD0142,STR020,317,16,2026-08-06,Home Item 142,Home,Butler-Taylor,31574,ShopSmart Asaba,Asaba,Delta,North,10008958,19.8125,High,0,65
+INV00143,PROD0143,STR010,394,9,2026-07-20,Groceries Item 143,Groceries,Jackson-Schwartz,10986,ShopSmart Abuja,Abuja,Abuja,North,4328484,43.77777777777778,High,0,82
+INV00144,PROD0144,STR014,98,23,2026-08-04,Beauty Item 144,Beauty,"Greer, Ortiz and Davenport",10567,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,1035566,4.260869565217392,Medium,0,67
+INV00145,PROD0145,STR021,337,50,2026-09-25,Electronics Item 145,Electronics,Greene and Sons,26672,ShopSmart Lagos,Lagos,Lagos,West,8988464,6.74,High,0,15
+INV00146,PROD0146,STR021,21,47,2026-07-20,Electronics Item 146,Electronics,Hughes-Lowery,9790,ShopSmart Lagos,Lagos,Lagos,West,205590,0.44680851063829785,Low,26,82
+INV00147,PROD0147,STR006,33,20,2026-09-22,Groceries Item 147,Groceries,Whitaker-Schultz,2320,ShopSmart Kaduna,Kaduna,Kaduna,East,76560,1.65,Medium,0,18
+INV00148,PROD0148,STR009,353,32,2026-09-11,Beauty Item 148,Beauty,Brown-Cherry,48021,ShopSmart Ibadan,Ibadan,Oyo,South,16951413,11.03125,High,0,29
+INV00149,PROD0149,STR011,29,39,2026-08-24,Groceries Item 149,Groceries,"Gilbert, Brown and Bennett",39331,ShopSmart Kaduna,Kaduna,Kaduna,West,1140599,0.7435897435897436,Low,10,47
+INV00150,PROD0150,STR010,249,39,2026-10-08,Electronics Item 150,Electronics,"Reed, Carter and Chung",21640,ShopSmart Abuja,Abuja,Abuja,North,5388360,6.384615384615385,High,0,2
+INV00151,PROD0151,STR010,97,38,2026-08-22,Home Item 151,Home,"Perry, Spencer and Jackson",14810,ShopSmart Abuja,Abuja,Abuja,North,1436570,2.5526315789473686,Medium,0,49
+INV00152,PROD0152,STR009,89,11,2026-07-16,Beauty Item 152,Beauty,Lin-Joyce,21323,ShopSmart Ibadan,Ibadan,Oyo,South,1897747,8.090909090909092,High,0,86
+INV00153,PROD0153,STR007,264,9,2026-09-03,Beauty Item 153,Beauty,White PLC,26860,ShopSmart Ibadan,Ibadan,Oyo,North,7091040,29.333333333333332,High,0,37
+INV00154,PROD0154,STR008,29,27,2026-09-08,Groceries Item 154,Groceries,Mendoza Inc,30861,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,894969,1.0740740740740742,Medium,0,32
+INV00155,PROD0155,STR021,396,12,2026-08-29,Groceries Item 155,Groceries,Carr Inc,42820,ShopSmart Lagos,Lagos,Lagos,West,16956720,33.0,High,0,42
+INV00156,PROD0156,STR020,135,15,2026-09-11,Beauty Item 156,Beauty,Young-Moran,47864,ShopSmart Asaba,Asaba,Delta,North,6461640,9.0,High,0,29
+INV00157,PROD0157,STR006,200,33,2026-10-07,Groceries Item 157,Groceries,Deleon-Gillespie,3301,ShopSmart Kaduna,Kaduna,Kaduna,East,660200,6.0606060606060606,High,0,3
+INV00158,PROD0158,STR020,123,39,2026-07-20,Electronics Item 158,Electronics,Martinez Ltd,22469,ShopSmart Asaba,Asaba,Delta,North,2763687,3.1538461538461537,Medium,0,82
+INV00159,PROD0159,STR017,485,20,2026-07-16,Beauty Item 159,Beauty,Day Ltd,34209,ShopSmart Abuja,Abuja,Abuja,South,16591365,24.25,High,0,86
+INV00160,PROD0160,STR020,176,19,2026-09-09,Beauty Item 160,Beauty,"Lewis, Perry and Bailey",22758,ShopSmart Asaba,Asaba,Delta,North,4005408,9.263157894736842,High,0,31
+INV00161,PROD0161,STR013,35,23,2026-09-08,Groceries Item 161,Groceries,"Diaz, Sims and Watson",47938,ShopSmart Lagos,Lagos,Lagos,East,1677830,1.5217391304347827,Medium,0,32
+INV00162,PROD0162,STR021,304,30,2026-09-28,Beauty Item 162,Beauty,Moore-Ellis,3150,ShopSmart Lagos,Lagos,Lagos,West,957600,10.133333333333333,High,0,12
+INV00163,PROD0163,STR017,150,9,2026-08-20,Beauty Item 163,Beauty,"Henderson, Cantu and Martinez",35524,ShopSmart Abuja,Abuja,Abuja,South,5328600,16.666666666666668,High,0,51
+INV00164,PROD0164,STR004,455,5,2026-09-29,Groceries Item 164,Groceries,"Warner, Booker and Pineda",46661,ShopSmart Asaba,Asaba,Delta,South,21230755,91.0,High,0,11
+INV00165,PROD0165,STR014,14,45,2026-08-31,Electronics Item 165,Electronics,"Anderson, Sandoval and Bryan",42598,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,596372,0.3111111111111111,Low,31,40
+INV00166,PROD0166,STR019,421,26,2026-08-02,Groceries Item 166,Groceries,"Clarke, Henry and Sandoval",6684,ShopSmart Kaduna,Kaduna,Kaduna,South,2813964,16.192307692307693,High,0,69
+INV00167,PROD0167,STR015,311,31,2026-08-05,Groceries Item 167,Groceries,Olson-Adams,5498,ShopSmart Lagos,Lagos,Lagos,North,1709878,10.03225806451613,High,0,66
+INV00168,PROD0168,STR001,122,42,2026-07-23,Fashion Item 168,Fashion,Navarro and Sons,34012,ShopSmart Abuja,Abuja,Abuja,East,4149464,2.9047619047619047,Medium,0,79
+INV00169,PROD0169,STR007,229,16,2026-09-25,Electronics Item 169,Electronics,Kaiser-Burch,47111,ShopSmart Ibadan,Ibadan,Oyo,North,10788419,14.3125,High,0,15
+INV00170,PROD0170,STR019,361,41,2026-08-27,Groceries Item 170,Groceries,Gentry-Ward,29037,ShopSmart Kaduna,Kaduna,Kaduna,South,10482357,8.804878048780488,High,0,44
+INV00171,PROD0171,STR023,288,6,2026-09-08,Beauty Item 171,Beauty,Garcia LLC,33235,ShopSmart Abuja,Abuja,Abuja,South,9571680,48.0,High,0,32
+INV00172,PROD0172,STR025,99,33,2026-07-25,Fashion Item 172,Fashion,"Gordon, Walker and Ingram",1052,ShopSmart Asaba,Asaba,Delta,West,104148,3.0,Medium,0,77
+INV00173,PROD0173,STR024,297,8,2026-07-29,Beauty Item 173,Beauty,"Hunter, Alexander and White",7691,ShopSmart Ibadan,Ibadan,Oyo,East,2284227,37.125,High,0,73
+INV00174,PROD0174,STR023,41,20,2026-08-25,Fashion Item 174,Fashion,Smith LLC,36955,ShopSmart Abuja,Abuja,Abuja,South,1515155,2.05,Medium,0,46
+INV00175,PROD0175,STR007,419,48,2026-10-07,Home Item 175,Home,Lee and Sons,20770,ShopSmart Ibadan,Ibadan,Oyo,North,8702630,8.729166666666666,High,0,3
+INV00176,PROD0176,STR023,54,17,2026-09-11,Groceries Item 176,Groceries,"Martin, Ray and Hooper",44652,ShopSmart Abuja,Abuja,Abuja,South,2411208,3.176470588235294,Medium,0,29
+INV00177,PROD0177,STR015,159,33,2026-07-27,Home Item 177,Home,Lang PLC,12143,ShopSmart Lagos,Lagos,Lagos,North,1930737,4.818181818181818,Medium,0,75
+INV00178,PROD0178,STR024,54,24,2026-07-16,Beauty Item 178,Beauty,Adams Group,33125,ShopSmart Ibadan,Ibadan,Oyo,East,1788750,2.25,Medium,0,86
+INV00179,PROD0179,STR015,266,24,2026-08-11,Beauty Item 179,Beauty,"Benitez, Fleming and Baker",31986,ShopSmart Lagos,Lagos,Lagos,North,8508276,11.083333333333334,High,0,60
+INV00180,PROD0180,STR021,60,43,2026-08-10,Fashion Item 180,Fashion,Hawkins Inc,34629,ShopSmart Lagos,Lagos,Lagos,West,2077740,1.3953488372093024,Medium,0,61
+INV00181,PROD0181,STR004,453,35,2026-08-14,Home Item 181,Home,Green-Riggs,42299,ShopSmart Asaba,Asaba,Delta,South,19161447,12.942857142857143,High,0,57
+INV00182,PROD0182,STR012,61,46,2026-08-28,Home Item 182,Home,"Reed, Jimenez and Powell",49582,ShopSmart Abeokuta,Abeokuta,Ogun,South,3024502,1.326086956521739,Medium,0,43
+INV00183,PROD0183,STR015,59,19,2026-07-31,Electronics Item 183,Electronics,"Wilson, Harris and Sutton",39545,ShopSmart Lagos,Lagos,Lagos,North,2333155,3.1052631578947367,Medium,0,71
+INV00184,PROD0184,STR020,192,26,2026-08-30,Groceries Item 184,Groceries,"Diaz, George and Fox",14767,ShopSmart Asaba,Asaba,Delta,North,2835264,7.384615384615385,High,0,41
+INV00185,PROD0185,STR013,410,22,2026-09-03,Groceries Item 185,Groceries,Meyer-Williams,7826,ShopSmart Lagos,Lagos,Lagos,East,3208660,18.636363636363637,High,0,37
+INV00186,PROD0186,STR017,458,6,2026-08-21,Home Item 186,Home,"Pierce, Sharp and Valdez",9991,ShopSmart Abuja,Abuja,Abuja,South,4575878,76.33333333333333,High,0,50
+INV00187,PROD0187,STR009,195,34,2026-08-12,Groceries Item 187,Groceries,"Brown, Todd and Gilmore",12494,ShopSmart Ibadan,Ibadan,Oyo,South,2436330,5.735294117647059,High,0,59
+INV00188,PROD0188,STR008,485,22,2026-07-29,Electronics Item 188,Electronics,Sandoval-Bryant,3480,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,1687800,22.045454545454547,High,0,73
+INV00189,PROD0189,STR005,212,37,2026-07-24,Beauty Item 189,Beauty,French and Sons,17076,ShopSmart Enugu,Enugu,Enugu,South,3620112,5.72972972972973,High,0,78
+INV00190,PROD0190,STR013,227,33,2026-07-14,Electronics Item 190,Electronics,"Glass, Ramirez and Burch",18942,ShopSmart Lagos,Lagos,Lagos,East,4299834,6.878787878787879,High,0,88
+INV00191,PROD0191,STR021,276,27,2026-07-22,Beauty Item 191,Beauty,Benson-Tucker,37747,ShopSmart Lagos,Lagos,Lagos,West,10418172,10.222222222222221,High,0,80
+INV00192,PROD0192,STR024,490,13,2026-08-25,Electronics Item 192,Electronics,Smith Group,6401,ShopSmart Ibadan,Ibadan,Oyo,East,3136490,37.69230769230769,High,0,46
+INV00193,PROD0193,STR004,375,30,2026-09-09,Beauty Item 193,Beauty,"Guerrero, Lopez and Flores",29762,ShopSmart Asaba,Asaba,Delta,South,11160750,12.5,High,0,31
+INV00194,PROD0194,STR011,452,22,2026-08-03,Home Item 194,Home,Rosales PLC,39043,ShopSmart Kaduna,Kaduna,Kaduna,West,17647436,20.545454545454547,High,0,68
+INV00195,PROD0195,STR020,445,35,2026-08-27,Beauty Item 195,Beauty,Murphy-Morris,18698,ShopSmart Asaba,Asaba,Delta,North,8320610,12.714285714285714,High,0,44
+INV00196,PROD0196,STR012,389,49,2026-10-01,Beauty Item 196,Beauty,Flynn Ltd,6826,ShopSmart Abeokuta,Abeokuta,Ogun,South,2655314,7.938775510204081,High,0,9
+INV00197,PROD0197,STR022,114,7,2026-09-03,Beauty Item 197,Beauty,Fischer-Santos,46264,ShopSmart Awka,Awka,Anambra,East,5274096,16.285714285714285,High,0,37
+INV00198,PROD0198,STR008,480,22,2026-07-21,Beauty Item 198,Beauty,Moreno-Potts,1804,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,865920,21.818181818181817,High,0,81
+INV00199,PROD0199,STR002,297,35,2026-08-19,Home Item 199,Home,"Patterson, Vargas and Manning",28172,ShopSmart Kano,Kano,Kano,West,8367084,8.485714285714286,High,0,52
+INV00200,PROD0200,STR008,333,14,2026-07-30,Groceries Item 200,Groceries,Barrera Group,46783,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,15578739,23.785714285714285,High,0,72
+INV00201,PROD0201,STR021,239,23,2026-09-21,Electronics Item 201,Electronics,"Ramos, Pena and Andrews",23295,ShopSmart Lagos,Lagos,Lagos,West,5567505,10.391304347826088,High,0,19
+INV00202,PROD0202,STR014,311,25,2026-09-21,Groceries Item 202,Groceries,Hanna-Carr,35839,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,11145929,12.44,High,0,19
+INV00203,PROD0203,STR014,494,40,2026-10-02,Beauty Item 203,Beauty,"Harris, Jones and Russo",26454,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,13068276,12.35,High,0,8
+INV00204,PROD0204,STR004,250,37,2026-08-01,Electronics Item 204,Electronics,Andrews and Sons,752,ShopSmart Asaba,Asaba,Delta,South,188000,6.756756756756757,High,0,70
+INV00205,PROD0205,STR001,281,19,2026-08-30,Electronics Item 205,Electronics,Cannon-Singh,21906,ShopSmart Abuja,Abuja,Abuja,East,6155586,14.789473684210526,High,0,41
+INV00206,PROD0206,STR014,71,18,2026-08-07,Fashion Item 206,Fashion,Matthews and Sons,16508,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,1172068,3.9444444444444446,Medium,0,64
+INV00207,PROD0207,STR018,452,33,2026-09-30,Groceries Item 207,Groceries,Weber-Rodriguez,36533,ShopSmart Ibadan,Ibadan,Oyo,East,16512916,13.696969696969697,High,0,10
+INV00208,PROD0208,STR008,441,48,2026-09-27,Fashion Item 208,Fashion,Mason-Anderson,36751,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,16207191,9.1875,High,0,13
+INV00209,PROD0209,STR024,149,28,2026-07-31,Home Item 209,Home,Mills PLC,40866,ShopSmart Ibadan,Ibadan,Oyo,East,6089034,5.321428571428571,High,0,71
+INV00210,PROD0210,STR015,376,6,2026-08-04,Beauty Item 210,Beauty,Curry-Ortega,40572,ShopSmart Lagos,Lagos,Lagos,North,15255072,62.666666666666664,High,0,67
+INV00211,PROD0211,STR019,108,39,2026-08-21,Home Item 211,Home,"Wells, Crawford and Phillips",26590,ShopSmart Kaduna,Kaduna,Kaduna,South,2871720,2.769230769230769,Medium,0,50
+INV00212,PROD0212,STR022,12,41,2026-09-22,Home Item 212,Home,Moss-Ellis,11248,ShopSmart Awka,Awka,Anambra,East,134976,0.2926829268292683,Low,29,18
+INV00213,PROD0213,STR025,186,28,2026-10-07,Home Item 213,Home,Hartman PLC,16495,ShopSmart Asaba,Asaba,Delta,West,3068070,6.642857142857143,High,0,3
+INV00214,PROD0214,STR015,231,43,2026-09-04,Groceries Item 214,Groceries,Smith LLC,36925,ShopSmart Lagos,Lagos,Lagos,North,8529675,5.372093023255814,High,0,36
+INV00215,PROD0215,STR022,115,40,2026-09-22,Groceries Item 215,Groceries,"Sullivan, Nguyen and Young",33372,ShopSmart Awka,Awka,Anambra,East,3837780,2.875,Medium,0,18
+INV00216,PROD0216,STR016,372,37,2026-07-23,Home Item 216,Home,Ford Ltd,44617,ShopSmart Abeokuta,Abeokuta,Ogun,East,16597524,10.054054054054054,High,0,79
+INV00217,PROD0217,STR022,199,14,2026-08-19,Groceries Item 217,Groceries,Maynard PLC,14556,ShopSmart Awka,Awka,Anambra,East,2896644,14.214285714285714,High,0,52
+INV00218,PROD0218,STR009,378,10,2026-07-31,Home Item 218,Home,Moore Group,49454,ShopSmart Ibadan,Ibadan,Oyo,South,18693612,37.8,High,0,71
+INV00219,PROD0219,STR005,306,15,2026-08-10,Fashion Item 219,Fashion,"Holt, Schneider and Dickson",42115,ShopSmart Enugu,Enugu,Enugu,South,12887190,20.4,High,0,61
+INV00220,PROD0220,STR011,500,38,2026-08-31,Beauty Item 220,Beauty,Scott-Shelton,49654,ShopSmart Kaduna,Kaduna,Kaduna,West,24827000,13.157894736842104,High,0,40
+INV00221,PROD0221,STR003,259,8,2026-07-31,Home Item 221,Home,Adams and Sons,12102,ShopSmart Lagos,Lagos,Lagos,South,3134418,32.375,High,0,71
+INV00222,PROD0222,STR025,55,23,2026-07-24,Electronics Item 222,Electronics,Dyer LLC,16741,ShopSmart Asaba,Asaba,Delta,West,920755,2.391304347826087,Medium,0,78
+INV00223,PROD0223,STR002,248,8,2026-08-08,Fashion Item 223,Fashion,Porter-Andrews,7621,ShopSmart Kano,Kano,Kano,West,1890008,31.0,High,0,63
+INV00224,PROD0224,STR012,324,30,2026-10-06,Electronics Item 224,Electronics,Williams Group,12943,ShopSmart Abeokuta,Abeokuta,Ogun,South,4193532,10.8,High,0,4
+INV00225,PROD0225,STR001,90,21,2026-09-20,Beauty Item 225,Beauty,"Mayer, Nunez and Fitzgerald",10779,ShopSmart Abuja,Abuja,Abuja,East,970110,4.285714285714286,Medium,0,20
+INV00226,PROD0226,STR002,260,47,2026-09-10,Groceries Item 226,Groceries,Mason Ltd,47482,ShopSmart Kano,Kano,Kano,West,12345320,5.531914893617022,High,0,30
+INV00227,PROD0227,STR025,38,45,2026-07-19,Electronics Item 227,Electronics,"Washington, Griffith and Munoz",44607,ShopSmart Asaba,Asaba,Delta,West,1695066,0.8444444444444444,Low,7,83
+INV00228,PROD0228,STR021,263,36,2026-07-22,Beauty Item 228,Beauty,"Wiggins, Santiago and Simon",48412,ShopSmart Lagos,Lagos,Lagos,West,12732356,7.305555555555555,High,0,80
+INV00229,PROD0229,STR019,468,9,2026-08-08,Fashion Item 229,Fashion,Franco-Rivera,12744,ShopSmart Kaduna,Kaduna,Kaduna,South,5964192,52.0,High,0,63
+INV00230,PROD0230,STR013,248,36,2026-08-08,Beauty Item 230,Beauty,Hawkins-Johnson,48231,ShopSmart Lagos,Lagos,Lagos,East,11961288,6.888888888888889,High,0,63
+INV00231,PROD0231,STR021,291,18,2026-08-26,Beauty Item 231,Beauty,Williams Inc,31752,ShopSmart Lagos,Lagos,Lagos,West,9239832,16.166666666666668,High,0,45
+INV00232,PROD0232,STR022,383,27,2026-09-16,Electronics Item 232,Electronics,Norton-Booker,27111,ShopSmart Awka,Awka,Anambra,East,10383513,14.185185185185185,High,0,24
+INV00233,PROD0233,STR001,312,9,2026-08-24,Home Item 233,Home,"Russell, Schultz and Solis",32809,ShopSmart Abuja,Abuja,Abuja,East,10236408,34.666666666666664,High,0,47
+INV00234,PROD0234,STR020,51,41,2026-07-29,Electronics Item 234,Electronics,"Wilson, Davis and Manning",28188,ShopSmart Asaba,Asaba,Delta,North,1437588,1.2439024390243902,Medium,0,73
+INV00235,PROD0235,STR008,251,8,2026-09-19,Fashion Item 235,Fashion,Fleming LLC,38642,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,9699142,31.375,High,0,21
+INV00236,PROD0236,STR016,145,38,2026-08-27,Beauty Item 236,Beauty,Thomas Ltd,34752,ShopSmart Abeokuta,Abeokuta,Ogun,East,5039040,3.8157894736842106,Medium,0,44
+INV00237,PROD0237,STR005,329,25,2026-08-23,Fashion Item 237,Fashion,"Johnson, Patel and Miller",16711,ShopSmart Enugu,Enugu,Enugu,South,5497919,13.16,High,0,48
+INV00238,PROD0238,STR005,211,10,2026-07-27,Beauty Item 238,Beauty,"Brown, Villarreal and Daniel",8851,ShopSmart Enugu,Enugu,Enugu,South,1867561,21.1,High,0,75
+INV00239,PROD0239,STR018,126,17,2026-09-09,Home Item 239,Home,Ramirez-Hart,27353,ShopSmart Ibadan,Ibadan,Oyo,East,3446478,7.411764705882353,High,0,31
+INV00240,PROD0240,STR012,158,25,2026-10-02,Beauty Item 240,Beauty,Carlson-Holmes,46033,ShopSmart Abeokuta,Abeokuta,Ogun,South,7273214,6.32,High,0,8
+INV00241,PROD0241,STR014,461,39,2026-08-12,Beauty Item 241,Beauty,"Young, Davis and Benson",27959,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,12889099,11.820512820512821,High,0,59
+INV00242,PROD0242,STR016,291,27,2026-07-29,Beauty Item 242,Beauty,Williamson-Moore,42656,ShopSmart Abeokuta,Abeokuta,Ogun,East,12412896,10.777777777777779,High,0,73
+INV00243,PROD0243,STR002,208,10,2026-08-30,Fashion Item 243,Fashion,"Hardy, Craig and Horton",23433,ShopSmart Kano,Kano,Kano,West,4874064,20.8,High,0,41
+INV00244,PROD0244,STR017,392,34,2026-08-25,Groceries Item 244,Groceries,Olson-Vance,48631,ShopSmart Abuja,Abuja,Abuja,South,19063352,11.529411764705882,High,0,46
+INV00245,PROD0245,STR017,159,47,2026-10-02,Groceries Item 245,Groceries,Tucker-Robbins,46473,ShopSmart Abuja,Abuja,Abuja,South,7389207,3.382978723404255,Medium,0,8
+INV00246,PROD0246,STR008,292,31,2026-07-28,Fashion Item 246,Fashion,Kemp-Lee,46108,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,13463536,9.419354838709678,High,0,74
+INV00247,PROD0247,STR013,460,23,2026-08-22,Home Item 247,Home,"Price, Mcgee and Perez",35487,ShopSmart Lagos,Lagos,Lagos,East,16324020,20.0,High,0,49
+INV00248,PROD0248,STR015,388,19,2026-08-17,Groceries Item 248,Groceries,"Houston, Combs and Dunlap",40584,ShopSmart Lagos,Lagos,Lagos,North,15746592,20.42105263157895,High,0,54
+INV00249,PROD0249,STR015,381,41,2026-08-03,Beauty Item 249,Beauty,Reyes-Rubio,6673,ShopSmart Lagos,Lagos,Lagos,North,2542413,9.292682926829269,High,0,68
+INV00250,PROD0250,STR023,211,21,2026-08-11,Home Item 250,Home,Norton-Rogers,13878,ShopSmart Abuja,Abuja,Abuja,South,2928258,10.047619047619047,High,0,60
+INV00251,PROD0251,STR001,298,11,2026-07-27,Beauty Item 251,Beauty,Horton Ltd,39374,ShopSmart Abuja,Abuja,Abuja,East,11733452,27.09090909090909,High,0,75
+INV00252,PROD0252,STR018,384,9,2026-09-28,Groceries Item 252,Groceries,Brown Inc,23006,ShopSmart Ibadan,Ibadan,Oyo,East,8834304,42.666666666666664,High,0,12
+INV00253,PROD0253,STR011,219,14,2026-08-26,Beauty Item 253,Beauty,Thomas-Gilbert,18380,ShopSmart Kaduna,Kaduna,Kaduna,West,4025220,15.642857142857142,High,0,45
+INV00254,PROD0254,STR023,131,38,2026-08-28,Electronics Item 254,Electronics,Hood PLC,29620,ShopSmart Abuja,Abuja,Abuja,South,3880220,3.4473684210526314,Medium,0,43
+INV00255,PROD0255,STR009,249,25,2026-08-23,Groceries Item 255,Groceries,Martinez Ltd,38467,ShopSmart Ibadan,Ibadan,Oyo,South,9578283,9.96,High,0,48
+INV00256,PROD0256,STR016,243,9,2026-09-12,Electronics Item 256,Electronics,"Jackson, Williams and Hall",29666,ShopSmart Abeokuta,Abeokuta,Ogun,East,7208838,27.0,High,0,28
+INV00257,PROD0257,STR005,392,32,2026-08-05,Home Item 257,Home,Cardenas LLC,9853,ShopSmart Enugu,Enugu,Enugu,South,3862376,12.25,High,0,66
+INV00258,PROD0258,STR003,113,17,2026-08-09,Home Item 258,Home,Castro PLC,28225,ShopSmart Lagos,Lagos,Lagos,South,3189425,6.647058823529412,High,0,62
+INV00259,PROD0259,STR008,72,5,2026-09-08,Fashion Item 259,Fashion,Myers and Sons,4624,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,332928,14.4,High,0,32
+INV00260,PROD0260,STR025,22,21,2026-08-14,Beauty Item 260,Beauty,Dawson-Turner,41049,ShopSmart Asaba,Asaba,Delta,West,903078,1.0476190476190477,Medium,0,57
+INV00261,PROD0261,STR022,283,14,2026-07-26,Electronics Item 261,Electronics,Davis-Campbell,37359,ShopSmart Awka,Awka,Anambra,East,10572597,20.214285714285715,High,0,76
+INV00262,PROD0262,STR015,489,29,2026-09-05,Beauty Item 262,Beauty,"Johnson, Smith and Nichols",30468,ShopSmart Lagos,Lagos,Lagos,North,14898852,16.862068965517242,High,0,35
+INV00263,PROD0263,STR006,447,41,2026-09-18,Home Item 263,Home,Rivera and Sons,17205,ShopSmart Kaduna,Kaduna,Kaduna,East,7690635,10.902439024390244,High,0,22
+INV00264,PROD0264,STR019,393,9,2026-08-16,Beauty Item 264,Beauty,"Powell, Allen and Spencer",37919,ShopSmart Kaduna,Kaduna,Kaduna,South,14902167,43.666666666666664,High,0,55
+INV00265,PROD0265,STR017,177,40,2026-08-04,Fashion Item 265,Fashion,"Lopez, Jones and Stephens",5432,ShopSmart Abuja,Abuja,Abuja,South,961464,4.425,Medium,0,67
+INV00266,PROD0266,STR025,468,47,2026-10-01,Groceries Item 266,Groceries,Lee Group,40363,ShopSmart Asaba,Asaba,Delta,West,18889884,9.957446808510639,High,0,9
+INV00267,PROD0267,STR006,367,11,2026-08-12,Fashion Item 267,Fashion,Mitchell-Mcdaniel,7875,ShopSmart Kaduna,Kaduna,Kaduna,East,2890125,33.36363636363637,High,0,59
+INV00268,PROD0268,STR020,269,37,2026-08-24,Groceries Item 268,Groceries,"Griffin, Miller and Lopez",19438,ShopSmart Asaba,Asaba,Delta,North,5228822,7.27027027027027,High,0,47
+INV00269,PROD0269,STR009,141,5,2026-07-28,Beauty Item 269,Beauty,Gill and Sons,41782,ShopSmart Ibadan,Ibadan,Oyo,South,5891262,28.2,High,0,74
+INV00270,PROD0270,STR016,337,11,2026-09-01,Home Item 270,Home,Dean-Barajas,48542,ShopSmart Abeokuta,Abeokuta,Ogun,East,16358654,30.636363636363637,High,0,39
+INV00271,PROD0271,STR003,219,24,2026-09-12,Beauty Item 271,Beauty,Wilson PLC,7500,ShopSmart Lagos,Lagos,Lagos,South,1642500,9.125,High,0,28
+INV00272,PROD0272,STR001,16,29,2026-09-24,Fashion Item 272,Fashion,Bryant PLC,38791,ShopSmart Abuja,Abuja,Abuja,East,620656,0.5517241379310345,Low,13,16
+INV00273,PROD0273,STR001,376,15,2026-08-05,Fashion Item 273,Fashion,Davis-Church,19506,ShopSmart Abuja,Abuja,Abuja,East,7334256,25.066666666666666,High,0,66
+INV00274,PROD0274,STR003,250,37,2026-08-01,Beauty Item 274,Beauty,Phillips Group,11422,ShopSmart Lagos,Lagos,Lagos,South,2855500,6.756756756756757,High,0,70
+INV00275,PROD0275,STR011,229,34,2026-09-24,Beauty Item 275,Beauty,"Flores, Smith and Taylor",26353,ShopSmart Kaduna,Kaduna,Kaduna,West,6034837,6.735294117647059,High,0,16
+INV00276,PROD0276,STR020,353,19,2026-09-03,Fashion Item 276,Fashion,Dominguez-Newton,11700,ShopSmart Asaba,Asaba,Delta,North,4130100,18.57894736842105,High,0,37
+INV00277,PROD0277,STR008,256,22,2026-08-01,Electronics Item 277,Electronics,Daniels PLC,11249,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,2879744,11.636363636363637,High,0,70
+INV00278,PROD0278,STR016,115,29,2026-08-15,Home Item 278,Home,"Martinez, King and Reyes",3061,ShopSmart Abeokuta,Abeokuta,Ogun,East,352015,3.9655172413793105,Medium,0,56
+INV00279,PROD0279,STR015,499,6,2026-09-08,Fashion Item 279,Fashion,Campos PLC,36733,ShopSmart Lagos,Lagos,Lagos,North,18329767,83.16666666666667,High,0,32
+INV00280,PROD0280,STR025,108,38,2026-10-01,Electronics Item 280,Electronics,"Marshall, Barton and Stein",1684,ShopSmart Asaba,Asaba,Delta,West,181872,2.8421052631578947,Medium,0,9
+INV00281,PROD0281,STR023,110,13,2026-09-30,Groceries Item 281,Groceries,Cooper-Carter,18231,ShopSmart Abuja,Abuja,Abuja,South,2005410,8.461538461538462,High,0,10
+INV00282,PROD0282,STR021,455,8,2026-09-03,Fashion Item 282,Fashion,Jones Group,23999,ShopSmart Lagos,Lagos,Lagos,West,10919545,56.875,High,0,37
+INV00283,PROD0283,STR003,56,16,2026-08-12,Groceries Item 283,Groceries,Casey-Martinez,535,ShopSmart Lagos,Lagos,Lagos,South,29960,3.5,Medium,0,59
+INV00284,PROD0284,STR015,102,32,2026-07-13,Beauty Item 284,Beauty,Ray-Phillips,38060,ShopSmart Lagos,Lagos,Lagos,North,3882120,3.1875,Medium,0,89
+INV00285,PROD0285,STR025,310,45,2026-10-08,Electronics Item 285,Electronics,"Vazquez, Larsen and Le",22119,ShopSmart Asaba,Asaba,Delta,West,6856890,6.888888888888889,High,0,2
+INV00286,PROD0286,STR010,338,50,2026-08-01,Beauty Item 286,Beauty,"Woods, Jenkins and Johnson",36614,ShopSmart Abuja,Abuja,Abuja,North,12375532,6.76,High,0,70
+INV00287,PROD0287,STR009,281,5,2026-08-13,Beauty Item 287,Beauty,Lester-Ellis,48793,ShopSmart Ibadan,Ibadan,Oyo,South,13710833,56.2,High,0,58
+INV00288,PROD0288,STR004,110,5,2026-10-01,Electronics Item 288,Electronics,Duran Ltd,36763,ShopSmart Asaba,Asaba,Delta,South,4043930,22.0,High,0,9
+INV00289,PROD0289,STR008,176,16,2026-09-11,Groceries Item 289,Groceries,Lucero LLC,1454,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,255904,11.0,High,0,29
+INV00290,PROD0290,STR025,367,28,2026-07-31,Home Item 290,Home,Oneill-Henry,24784,ShopSmart Asaba,Asaba,Delta,West,9095728,13.107142857142858,High,0,71
+INV00291,PROD0291,STR003,111,18,2026-07-31,Electronics Item 291,Electronics,Poole-Whitney,541,ShopSmart Lagos,Lagos,Lagos,South,60051,6.166666666666667,High,0,71
+INV00292,PROD0292,STR015,146,8,2026-09-29,Fashion Item 292,Fashion,Yang-Chavez,47699,ShopSmart Lagos,Lagos,Lagos,North,6964054,18.25,High,0,11
+INV00293,PROD0293,STR016,120,46,2026-08-10,Home Item 293,Home,Chavez and Sons,7173,ShopSmart Abeokuta,Abeokuta,Ogun,East,860760,2.608695652173913,Medium,0,61
+INV00294,PROD0294,STR001,294,16,2026-08-20,Beauty Item 294,Beauty,Juarez PLC,23823,ShopSmart Abuja,Abuja,Abuja,East,7003962,18.375,High,0,51
+INV00295,PROD0295,STR025,89,35,2026-09-18,Electronics Item 295,Electronics,"Ball, Parsons and Kirk",23924,ShopSmart Asaba,Asaba,Delta,West,2129236,2.5428571428571427,Medium,0,22
+INV00296,PROD0296,STR010,431,42,2026-10-03,Electronics Item 296,Electronics,Chaney-Anderson,37066,ShopSmart Abuja,Abuja,Abuja,North,15975446,10.261904761904763,High,0,7
+INV00297,PROD0297,STR014,81,50,2026-07-20,Beauty Item 297,Beauty,"Shah, Campos and Howard",13055,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,1057455,1.62,Medium,0,82
+INV00298,PROD0298,STR004,316,26,2026-09-28,Beauty Item 298,Beauty,Cooley-Garcia,44079,ShopSmart Asaba,Asaba,Delta,South,13928964,12.153846153846153,High,0,12
+INV00299,PROD0299,STR006,28,37,2026-08-10,Fashion Item 299,Fashion,Williams and Sons,28811,ShopSmart Kaduna,Kaduna,Kaduna,East,806708,0.7567567567567568,Low,9,61
+INV00300,PROD0300,STR012,471,50,2026-07-30,Electronics Item 300,Electronics,Davis-Moore,33441,ShopSmart Abeokuta,Abeokuta,Ogun,South,15750711,9.42,High,0,72
+INV00301,PROD0301,STR014,124,42,2026-08-16,Electronics Item 301,Electronics,Torres-Allison,43336,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,5373664,2.9523809523809526,Medium,0,55
+INV00302,PROD0302,STR013,14,46,2026-09-03,Home Item 302,Home,"Rose, Ford and Sanchez",11116,ShopSmart Lagos,Lagos,Lagos,East,155624,0.30434782608695654,Low,32,37
+INV00303,PROD0303,STR013,72,30,2026-09-23,Electronics Item 303,Electronics,Taylor-Taylor,2546,ShopSmart Lagos,Lagos,Lagos,East,183312,2.4,Medium,0,17
+INV00304,PROD0304,STR023,407,23,2026-08-04,Groceries Item 304,Groceries,Campbell Ltd,28531,ShopSmart Abuja,Abuja,Abuja,South,11612117,17.695652173913043,High,0,67
+INV00305,PROD0305,STR021,43,27,2026-08-14,Electronics Item 305,Electronics,Wagner Ltd,3619,ShopSmart Lagos,Lagos,Lagos,West,155617,1.5925925925925926,Medium,0,57
+INV00306,PROD0306,STR022,484,41,2026-08-12,Fashion Item 306,Fashion,"Gonzalez, Cox and Kent",20358,ShopSmart Awka,Awka,Anambra,East,9853272,11.804878048780488,High,0,59
+INV00307,PROD0307,STR023,400,31,2026-08-28,Fashion Item 307,Fashion,Andersen Inc,9119,ShopSmart Abuja,Abuja,Abuja,South,3647600,12.903225806451612,High,0,43
+INV00308,PROD0308,STR011,445,19,2026-10-03,Electronics Item 308,Electronics,Prince Ltd,26281,ShopSmart Kaduna,Kaduna,Kaduna,West,11695045,23.42105263157895,High,0,7
+INV00309,PROD0309,STR014,215,36,2026-07-25,Fashion Item 309,Fashion,Edwards Group,28152,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,6052680,5.972222222222222,High,0,77
+INV00310,PROD0310,STR012,384,46,2026-08-03,Home Item 310,Home,Robinson-Vazquez,25025,ShopSmart Abeokuta,Abeokuta,Ogun,South,9609600,8.347826086956522,High,0,68
+INV00311,PROD0311,STR020,248,8,2026-09-01,Electronics Item 311,Electronics,Ryan and Sons,25261,ShopSmart Asaba,Asaba,Delta,North,6264728,31.0,High,0,39
+INV00312,PROD0312,STR012,280,25,2026-09-21,Groceries Item 312,Groceries,Brown LLC,8156,ShopSmart Abeokuta,Abeokuta,Ogun,South,2283680,11.2,High,0,19
+INV00313,PROD0313,STR024,399,8,2026-10-04,Fashion Item 313,Fashion,"Sawyer, Garcia and Franklin",40560,ShopSmart Ibadan,Ibadan,Oyo,East,16183440,49.875,High,0,6
+INV00314,PROD0314,STR013,49,11,2026-07-21,Home Item 314,Home,"Knight, Griffin and Perkins",9473,ShopSmart Lagos,Lagos,Lagos,East,464177,4.454545454545454,Medium,0,81
+INV00315,PROD0315,STR022,190,11,2026-09-26,Home Item 315,Home,Smith-Robinson,12182,ShopSmart Awka,Awka,Anambra,East,2314580,17.272727272727273,High,0,14
+INV00316,PROD0316,STR007,405,28,2026-07-16,Groceries Item 316,Groceries,Sloan LLC,8684,ShopSmart Ibadan,Ibadan,Oyo,North,3517020,14.464285714285714,High,0,86
+INV00317,PROD0317,STR023,210,11,2026-08-17,Fashion Item 317,Fashion,Lawson-Reid,15960,ShopSmart Abuja,Abuja,Abuja,South,3351600,19.09090909090909,High,0,54
+INV00318,PROD0318,STR009,199,45,2026-08-17,Fashion Item 318,Fashion,Ramos Ltd,29308,ShopSmart Ibadan,Ibadan,Oyo,South,5832292,4.4222222222222225,Medium,0,54
+INV00319,PROD0319,STR001,61,26,2026-09-20,Fashion Item 319,Fashion,"Gonzalez, Murphy and Cabrera",33196,ShopSmart Abuja,Abuja,Abuja,East,2024956,2.3461538461538463,Medium,0,20
+INV00320,PROD0320,STR025,271,32,2026-07-16,Home Item 320,Home,Mcdaniel-Torres,20395,ShopSmart Asaba,Asaba,Delta,West,5527045,8.46875,High,0,86
+INV00321,PROD0321,STR017,33,7,2026-08-27,Fashion Item 321,Fashion,"Marsh, Martin and Warren",24903,ShopSmart Abuja,Abuja,Abuja,South,821799,4.714285714285714,Medium,0,44
+INV00322,PROD0322,STR006,119,22,2026-08-03,Beauty Item 322,Beauty,Matthews and Sons,29144,ShopSmart Kaduna,Kaduna,Kaduna,East,3468136,5.409090909090909,High,0,68
+INV00323,PROD0323,STR017,233,19,2026-08-04,Electronics Item 323,Electronics,Phillips-Anderson,15688,ShopSmart Abuja,Abuja,Abuja,South,3655304,12.263157894736842,High,0,67
+INV00324,PROD0324,STR011,101,30,2026-08-25,Fashion Item 324,Fashion,"Moore, Parks and Gallagher",900,ShopSmart Kaduna,Kaduna,Kaduna,West,90900,3.3666666666666667,Medium,0,46
+INV00325,PROD0325,STR004,312,30,2026-09-13,Electronics Item 325,Electronics,"Smith, Thompson and Clayton",9490,ShopSmart Asaba,Asaba,Delta,South,2960880,10.4,High,0,27
+INV00326,PROD0326,STR019,463,26,2026-09-05,Fashion Item 326,Fashion,"Walters, Parker and Ochoa",14797,ShopSmart Kaduna,Kaduna,Kaduna,South,6851011,17.807692307692307,High,0,35
+INV00327,PROD0327,STR014,364,18,2026-07-31,Beauty Item 327,Beauty,"Wilkins, Swanson and Henry",4193,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,1526252,20.22222222222222,High,0,71
+INV00328,PROD0328,STR006,333,18,2026-07-30,Groceries Item 328,Groceries,"Freeman, Johnson and Obrien",26346,ShopSmart Kaduna,Kaduna,Kaduna,East,8773218,18.5,High,0,72
+INV00329,PROD0329,STR002,205,12,2026-10-07,Groceries Item 329,Groceries,Oneill-Jackson,6490,ShopSmart Kano,Kano,Kano,West,1330450,17.083333333333332,High,0,3
+INV00330,PROD0330,STR019,186,18,2026-07-28,Electronics Item 330,Electronics,Phillips PLC,47497,ShopSmart Kaduna,Kaduna,Kaduna,South,8834442,10.333333333333334,High,0,74
+INV00331,PROD0331,STR004,203,19,2026-07-27,Groceries Item 331,Groceries,Ward Inc,42449,ShopSmart Asaba,Asaba,Delta,South,8617147,10.68421052631579,High,0,75
+INV00332,PROD0332,STR016,457,35,2026-08-11,Home Item 332,Home,"Stewart, Poole and Chambers",32917,ShopSmart Abeokuta,Abeokuta,Ogun,East,15043069,13.057142857142857,High,0,60
+INV00333,PROD0333,STR004,217,27,2026-08-09,Fashion Item 333,Fashion,Mcclain and Sons,35631,ShopSmart Asaba,Asaba,Delta,South,7731927,8.037037037037036,High,0,62
+INV00334,PROD0334,STR023,192,26,2026-09-12,Groceries Item 334,Groceries,Lester Ltd,40967,ShopSmart Abuja,Abuja,Abuja,South,7865664,7.384615384615385,High,0,28
+INV00335,PROD0335,STR022,114,6,2026-09-10,Fashion Item 335,Fashion,Valdez Ltd,47185,ShopSmart Awka,Awka,Anambra,East,5379090,19.0,High,0,30
+INV00336,PROD0336,STR006,29,40,2026-08-29,Beauty Item 336,Beauty,"Miller, Kelly and Adams",21781,ShopSmart Kaduna,Kaduna,Kaduna,East,631649,0.725,Low,11,42
+INV00337,PROD0337,STR024,72,9,2026-08-18,Beauty Item 337,Beauty,"Olson, Smith and Young",44316,ShopSmart Ibadan,Ibadan,Oyo,East,3190752,8.0,High,0,53
+INV00338,PROD0338,STR008,354,12,2026-08-08,Fashion Item 338,Fashion,Guzman-Casey,9671,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,3423534,29.5,High,0,63
+INV00339,PROD0339,STR013,60,27,2026-08-06,Fashion Item 339,Fashion,Sanders Inc,7145,ShopSmart Lagos,Lagos,Lagos,East,428700,2.2222222222222223,Medium,0,65
+INV00340,PROD0340,STR010,141,44,2026-07-31,Beauty Item 340,Beauty,Gibbs-Brewer,21975,ShopSmart Abuja,Abuja,Abuja,North,3098475,3.2045454545454546,Medium,0,71
+INV00341,PROD0341,STR006,130,28,2026-08-04,Beauty Item 341,Beauty,"Robinson, Weber and Johnson",6007,ShopSmart Kaduna,Kaduna,Kaduna,East,780910,4.642857142857143,Medium,0,67
+INV00342,PROD0342,STR024,248,49,2026-10-10,Electronics Item 342,Electronics,"Craig, Cole and Ferguson",22519,ShopSmart Ibadan,Ibadan,Oyo,East,5584712,5.061224489795919,High,0,0
+INV00343,PROD0343,STR022,433,8,2026-07-16,Beauty Item 343,Beauty,Lopez and Sons,42228,ShopSmart Awka,Awka,Anambra,East,18284724,54.125,High,0,86
+INV00344,PROD0344,STR015,242,22,2026-09-28,Fashion Item 344,Fashion,"Wheeler, Whitaker and May",39774,ShopSmart Lagos,Lagos,Lagos,North,9625308,11.0,High,0,12
+INV00345,PROD0345,STR025,473,26,2026-07-26,Home Item 345,Home,Hodges-Tran,30260,ShopSmart Asaba,Asaba,Delta,West,14312980,18.192307692307693,High,0,76
+INV00346,PROD0346,STR020,179,45,2026-08-09,Home Item 346,Home,"Hudson, Parks and Choi",15594,ShopSmart Asaba,Asaba,Delta,North,2791326,3.977777777777778,Medium,0,62
+INV00347,PROD0347,STR024,424,39,2026-08-18,Groceries Item 347,Groceries,"Robertson, Hartman and Petersen",23871,ShopSmart Ibadan,Ibadan,Oyo,East,10121304,10.871794871794872,High,0,53
+INV00348,PROD0348,STR006,257,25,2026-09-25,Fashion Item 348,Fashion,Davis-Baker,29228,ShopSmart Kaduna,Kaduna,Kaduna,East,7511596,10.28,High,0,15
+INV00349,PROD0349,STR016,34,16,2026-09-10,Fashion Item 349,Fashion,Washington Inc,7848,ShopSmart Abeokuta,Abeokuta,Ogun,East,266832,2.125,Medium,0,30
+INV00350,PROD0350,STR012,301,41,2026-09-30,Home Item 350,Home,Davis Inc,8304,ShopSmart Abeokuta,Abeokuta,Ogun,South,2499504,7.341463414634147,High,0,10
+INV00351,PROD0351,STR002,278,43,2026-09-29,Fashion Item 351,Fashion,"Mccullough, Mckinney and Ramos",46527,ShopSmart Kano,Kano,Kano,West,12934506,6.465116279069767,High,0,11
+INV00352,PROD0352,STR003,399,33,2026-07-22,Beauty Item 352,Beauty,Coleman-Moore,30611,ShopSmart Lagos,Lagos,Lagos,South,12213789,12.090909090909092,High,0,80
+INV00353,PROD0353,STR021,326,34,2026-08-28,Fashion Item 353,Fashion,"Jimenez, Chandler and Cain",40020,ShopSmart Lagos,Lagos,Lagos,West,13046520,9.588235294117647,High,0,43
+INV00354,PROD0354,STR019,286,34,2026-08-16,Fashion Item 354,Fashion,Thomas and Sons,15662,ShopSmart Kaduna,Kaduna,Kaduna,South,4479332,8.411764705882353,High,0,55
+INV00355,PROD0355,STR022,84,34,2026-09-07,Beauty Item 355,Beauty,Black-Riddle,2484,ShopSmart Awka,Awka,Anambra,East,208656,2.4705882352941178,Medium,0,33
+INV00356,PROD0356,STR007,161,22,2026-08-16,Electronics Item 356,Electronics,"Sanders, Flores and Lopez",35224,ShopSmart Ibadan,Ibadan,Oyo,North,5671064,7.318181818181818,High,0,55
+INV00357,PROD0357,STR005,279,21,2026-08-29,Electronics Item 357,Electronics,Mcdaniel-Alvarez,4998,ShopSmart Enugu,Enugu,Enugu,South,1394442,13.285714285714286,High,0,42
+INV00358,PROD0358,STR011,384,37,2026-08-28,Groceries Item 358,Groceries,Pierce-Cordova,42725,ShopSmart Kaduna,Kaduna,Kaduna,West,16406400,10.378378378378379,High,0,43
+INV00359,PROD0359,STR020,68,34,2026-07-29,Beauty Item 359,Beauty,Chandler and Sons,12441,ShopSmart Asaba,Asaba,Delta,North,845988,2.0,Medium,0,73
+INV00360,PROD0360,STR022,308,42,2026-08-02,Electronics Item 360,Electronics,"Mcintosh, Moore and Norris",34118,ShopSmart Awka,Awka,Anambra,East,10508344,7.333333333333333,High,0,69
+INV00361,PROD0361,STR015,204,40,2026-09-25,Beauty Item 361,Beauty,"Marquez, Tran and Mcbride",11974,ShopSmart Lagos,Lagos,Lagos,North,2442696,5.1,High,0,15
+INV00362,PROD0362,STR007,342,31,2026-08-13,Beauty Item 362,Beauty,"Edwards, Larson and Jackson",4977,ShopSmart Ibadan,Ibadan,Oyo,North,1702134,11.03225806451613,High,0,58
+INV00363,PROD0363,STR009,449,9,2026-08-18,Groceries Item 363,Groceries,Gilmore-Wright,31951,ShopSmart Ibadan,Ibadan,Oyo,South,14345999,49.888888888888886,High,0,53
+INV00364,PROD0364,STR016,478,44,2026-10-06,Groceries Item 364,Groceries,Johnson Group,1131,ShopSmart Abeokuta,Abeokuta,Ogun,East,540618,10.863636363636363,High,0,4
+INV00365,PROD0365,STR008,430,28,2026-10-02,Beauty Item 365,Beauty,Ramirez Inc,28994,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,12467420,15.357142857142858,High,0,8
+INV00366,PROD0366,STR025,13,9,2026-07-25,Electronics Item 366,Electronics,"Smith, Gonzales and Townsend",21042,ShopSmart Asaba,Asaba,Delta,West,273546,1.4444444444444444,Medium,0,77
+INV00367,PROD0367,STR009,141,5,2026-08-17,Home Item 367,Home,Sparks-Stevenson,45818,ShopSmart Ibadan,Ibadan,Oyo,South,6460338,28.2,High,0,54
+INV00368,PROD0368,STR017,46,44,2026-07-18,Fashion Item 368,Fashion,Valdez-Cook,43812,ShopSmart Abuja,Abuja,Abuja,South,2015352,1.0454545454545454,Medium,0,84
+INV00369,PROD0369,STR018,276,46,2026-10-09,Fashion Item 369,Fashion,"Davis, Summers and Smith",48271,ShopSmart Ibadan,Ibadan,Oyo,East,13322796,6.0,High,0,1
+INV00370,PROD0370,STR010,123,11,2026-09-04,Beauty Item 370,Beauty,Brown-Beck,3776,ShopSmart Abuja,Abuja,Abuja,North,464448,11.181818181818182,High,0,36
+INV00371,PROD0371,STR018,16,41,2026-08-26,Beauty Item 371,Beauty,"Edwards, Ball and Gross",7537,ShopSmart Ibadan,Ibadan,Oyo,East,120592,0.3902439024390244,Low,25,45
+INV00372,PROD0372,STR020,30,32,2026-09-08,Home Item 372,Home,Wilson-Tran,12820,ShopSmart Asaba,Asaba,Delta,North,384600,0.9375,Low,2,32
+INV00373,PROD0373,STR025,234,15,2026-07-18,Home Item 373,Home,Erickson-Ray,33042,ShopSmart Asaba,Asaba,Delta,West,7731828,15.6,High,0,84
+INV00374,PROD0374,STR018,200,8,2026-08-12,Home Item 374,Home,"Brown, Chavez and Cameron",29512,ShopSmart Ibadan,Ibadan,Oyo,East,5902400,25.0,High,0,59
+INV00375,PROD0375,STR022,434,45,2026-08-23,Groceries Item 375,Groceries,"Wilson, Walker and Underwood",39329,ShopSmart Awka,Awka,Anambra,East,17068786,9.644444444444444,High,0,48
+INV00376,PROD0376,STR017,392,16,2026-08-06,Beauty Item 376,Beauty,"Jackson, Avery and Kelley",4779,ShopSmart Abuja,Abuja,Abuja,South,1873368,24.5,High,0,65
+INV00377,PROD0377,STR010,395,8,2026-08-13,Groceries Item 377,Groceries,Hernandez-Alvarez,14256,ShopSmart Abuja,Abuja,Abuja,North,5631120,49.375,High,0,58
+INV00378,PROD0378,STR019,91,6,2026-08-29,Groceries Item 378,Groceries,Williams-Baxter,39012,ShopSmart Kaduna,Kaduna,Kaduna,South,3550092,15.166666666666666,High,0,42
+INV00379,PROD0379,STR002,68,15,2026-09-13,Fashion Item 379,Fashion,Tran Group,25146,ShopSmart Kano,Kano,Kano,West,1709928,4.533333333333333,Medium,0,27
+INV00380,PROD0380,STR022,449,18,2026-08-22,Home Item 380,Home,Martin-Powell,17669,ShopSmart Awka,Awka,Anambra,East,7933381,24.944444444444443,High,0,49
+INV00381,PROD0381,STR003,238,47,2026-08-03,Fashion Item 381,Fashion,"Martin, Haley and Parrish",3951,ShopSmart Lagos,Lagos,Lagos,South,940338,5.0638297872340425,High,0,68
+INV00382,PROD0382,STR019,450,6,2026-09-24,Beauty Item 382,Beauty,Smith PLC,38893,ShopSmart Kaduna,Kaduna,Kaduna,South,17501850,75.0,High,0,16
+INV00383,PROD0383,STR017,94,30,2026-09-02,Electronics Item 383,Electronics,"Reyes, Moore and Smith",7850,ShopSmart Abuja,Abuja,Abuja,South,737900,3.1333333333333333,Medium,0,38
+INV00384,PROD0384,STR013,445,49,2026-09-23,Beauty Item 384,Beauty,"Webster, Sweeney and Simmons",36813,ShopSmart Lagos,Lagos,Lagos,East,16381785,9.081632653061224,High,0,17
+INV00385,PROD0385,STR007,345,17,2026-08-05,Groceries Item 385,Groceries,"Johnson, Gutierrez and Ramirez",38343,ShopSmart Ibadan,Ibadan,Oyo,North,13228335,20.294117647058822,High,0,66
+INV00386,PROD0386,STR023,21,10,2026-09-24,Groceries Item 386,Groceries,Clark Group,45310,ShopSmart Abuja,Abuja,Abuja,South,951510,2.1,Medium,0,16
+INV00387,PROD0387,STR002,88,10,2026-07-20,Groceries Item 387,Groceries,"Christensen, Velez and Sandoval",6739,ShopSmart Kano,Kano,Kano,West,593032,8.8,High,0,82
+INV00388,PROD0388,STR006,219,23,2026-10-05,Beauty Item 388,Beauty,Ross-Conner,39457,ShopSmart Kaduna,Kaduna,Kaduna,East,8641083,9.521739130434783,High,0,5
+INV00389,PROD0389,STR015,291,15,2026-08-16,Beauty Item 389,Beauty,"Greene, Miles and Bass",19538,ShopSmart Lagos,Lagos,Lagos,North,5685558,19.4,High,0,55
+INV00390,PROD0390,STR020,236,12,2026-09-08,Groceries Item 390,Groceries,"Hall, Patterson and Flores",43134,ShopSmart Asaba,Asaba,Delta,North,10179624,19.666666666666668,High,0,32
+INV00391,PROD0391,STR016,237,17,2026-10-05,Fashion Item 391,Fashion,Richardson LLC,48742,ShopSmart Abeokuta,Abeokuta,Ogun,East,11551854,13.941176470588236,High,0,5
+INV00392,PROD0392,STR001,449,41,2026-08-05,Beauty Item 392,Beauty,Foley PLC,19999,ShopSmart Abuja,Abuja,Abuja,East,8979551,10.951219512195122,High,0,66
+INV00393,PROD0393,STR015,487,7,2026-10-03,Beauty Item 393,Beauty,Rosales PLC,47960,ShopSmart Lagos,Lagos,Lagos,North,23356520,69.57142857142857,High,0,7
+INV00394,PROD0394,STR018,229,45,2026-08-02,Fashion Item 394,Fashion,Williams-Nelson,29207,ShopSmart Ibadan,Ibadan,Oyo,East,6688403,5.088888888888889,High,0,69
+INV00395,PROD0395,STR022,243,44,2026-07-21,Fashion Item 395,Fashion,Mclean-Adams,32630,ShopSmart Awka,Awka,Anambra,East,7929090,5.5227272727272725,High,0,81
+INV00396,PROD0396,STR007,41,20,2026-09-17,Beauty Item 396,Beauty,Thompson-Glass,23341,ShopSmart Ibadan,Ibadan,Oyo,North,956981,2.05,Medium,0,23
+INV00397,PROD0397,STR001,121,13,2026-09-06,Groceries Item 397,Groceries,Young-Banks,34468,ShopSmart Abuja,Abuja,Abuja,East,4170628,9.307692307692308,High,0,34
+INV00398,PROD0398,STR016,182,15,2026-08-10,Beauty Item 398,Beauty,Lowe Inc,3864,ShopSmart Abeokuta,Abeokuta,Ogun,East,703248,12.133333333333333,High,0,61
+INV00399,PROD0399,STR018,141,11,2026-08-20,Electronics Item 399,Electronics,"Garcia, Adams and Oconnor",29408,ShopSmart Ibadan,Ibadan,Oyo,East,4146528,12.818181818181818,High,0,51
+INV00400,PROD0400,STR013,313,19,2026-07-25,Home Item 400,Home,Fischer-Dixon,48415,ShopSmart Lagos,Lagos,Lagos,East,15153895,16.473684210526315,High,0,77
+INV00401,PROD0401,STR025,150,7,2026-08-11,Electronics Item 401,Electronics,Diaz-Dougherty,9521,ShopSmart Asaba,Asaba,Delta,West,1428150,21.428571428571427,High,0,60
+INV00402,PROD0402,STR007,244,7,2026-09-05,Beauty Item 402,Beauty,Mcpherson-Fernandez,12790,ShopSmart Ibadan,Ibadan,Oyo,North,3120760,34.857142857142854,High,0,35
+INV00403,PROD0403,STR018,12,21,2026-09-06,Home Item 403,Home,Brown-Williams,5870,ShopSmart Ibadan,Ibadan,Oyo,East,70440,0.5714285714285714,Low,9,34
+INV00404,PROD0404,STR012,399,45,2026-08-29,Fashion Item 404,Fashion,Ball-Park,49692,ShopSmart Abeokuta,Abeokuta,Ogun,South,19827108,8.866666666666667,High,0,42
+INV00405,PROD0405,STR003,212,22,2026-08-30,Fashion Item 405,Fashion,Mathews-Mercer,17715,ShopSmart Lagos,Lagos,Lagos,South,3755580,9.636363636363637,High,0,41
+INV00406,PROD0406,STR019,43,31,2026-09-02,Electronics Item 406,Electronics,Kirk-Ashley,17924,ShopSmart Kaduna,Kaduna,Kaduna,South,770732,1.3870967741935485,Medium,0,38
+INV00407,PROD0407,STR006,371,26,2026-08-24,Groceries Item 407,Groceries,Evans-Martinez,28382,ShopSmart Kaduna,Kaduna,Kaduna,East,10529722,14.26923076923077,High,0,47
+INV00408,PROD0408,STR001,411,37,2026-07-14,Groceries Item 408,Groceries,Jordan LLC,34780,ShopSmart Abuja,Abuja,Abuja,East,14294580,11.108108108108109,High,0,88
+INV00409,PROD0409,STR023,91,27,2026-07-26,Beauty Item 409,Beauty,"Lewis, George and Martin",7368,ShopSmart Abuja,Abuja,Abuja,South,670488,3.3703703703703702,Medium,0,76
+INV00410,PROD0410,STR002,113,40,2026-08-18,Groceries Item 410,Groceries,Martinez-Oconnor,42324,ShopSmart Kano,Kano,Kano,West,4782612,2.825,Medium,0,53
+INV00411,PROD0411,STR008,36,11,2026-07-31,Beauty Item 411,Beauty,Hoffman and Sons,33450,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,1204200,3.272727272727273,Medium,0,71
+INV00412,PROD0412,STR015,174,6,2026-09-30,Home Item 412,Home,Suarez and Sons,35651,ShopSmart Lagos,Lagos,Lagos,North,6203274,29.0,High,0,10
+INV00413,PROD0413,STR018,338,25,2026-09-17,Electronics Item 413,Electronics,Conrad Inc,38387,ShopSmart Ibadan,Ibadan,Oyo,East,12974806,13.52,High,0,23
+INV00414,PROD0414,STR009,13,44,2026-10-09,Home Item 414,Home,"George, Padilla and Bray",35808,ShopSmart Ibadan,Ibadan,Oyo,South,465504,0.29545454545454547,Low,31,1
+INV00415,PROD0415,STR021,137,13,2026-09-15,Fashion Item 415,Fashion,Erickson PLC,38277,ShopSmart Lagos,Lagos,Lagos,West,5243949,10.538461538461538,High,0,25
+INV00416,PROD0416,STR004,456,49,2026-09-08,Electronics Item 416,Electronics,"Cummings, White and Gutierrez",48858,ShopSmart Asaba,Asaba,Delta,South,22279248,9.306122448979592,High,0,32
+INV00417,PROD0417,STR025,43,28,2026-07-24,Beauty Item 417,Beauty,"Wilson, Young and Ramos",41805,ShopSmart Asaba,Asaba,Delta,West,1797615,1.5357142857142858,Medium,0,78
+INV00418,PROD0418,STR016,134,5,2026-09-23,Electronics Item 418,Electronics,Perez-Small,29682,ShopSmart Abeokuta,Abeokuta,Ogun,East,3977388,26.8,High,0,17
+INV00419,PROD0419,STR024,13,11,2026-08-22,Electronics Item 419,Electronics,Huff LLC,24774,ShopSmart Ibadan,Ibadan,Oyo,East,322062,1.1818181818181819,Medium,0,49
+INV00420,PROD0420,STR012,397,23,2026-07-22,Beauty Item 420,Beauty,Riley-Bates,28367,ShopSmart Abeokuta,Abeokuta,Ogun,South,11261699,17.26086956521739,High,0,80
+INV00421,PROD0421,STR023,496,33,2026-10-03,Beauty Item 421,Beauty,Greene-Gutierrez,14113,ShopSmart Abuja,Abuja,Abuja,South,7000048,15.030303030303031,High,0,7
+INV00422,PROD0422,STR015,359,19,2026-09-12,Fashion Item 422,Fashion,Dalton-Martinez,6360,ShopSmart Lagos,Lagos,Lagos,North,2283240,18.894736842105264,High,0,28
+INV00423,PROD0423,STR015,373,44,2026-08-11,Fashion Item 423,Fashion,Mccall PLC,49292,ShopSmart Lagos,Lagos,Lagos,North,18385916,8.477272727272727,High,0,60
+INV00424,PROD0424,STR001,117,11,2026-10-09,Electronics Item 424,Electronics,Beck-Kelley,49949,ShopSmart Abuja,Abuja,Abuja,East,5844033,10.636363636363637,High,0,1
+INV00425,PROD0425,STR016,315,43,2026-09-11,Electronics Item 425,Electronics,Mills Inc,44339,ShopSmart Abeokuta,Abeokuta,Ogun,East,13966785,7.325581395348837,High,0,29
+INV00426,PROD0426,STR014,367,28,2026-09-24,Groceries Item 426,Groceries,"Martinez, Schwartz and Taylor",44627,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,16378109,13.107142857142858,High,0,16
+INV00427,PROD0427,STR020,361,7,2026-09-19,Electronics Item 427,Electronics,Hansen-White,8486,ShopSmart Asaba,Asaba,Delta,North,3063446,51.57142857142857,High,0,21
+INV00428,PROD0428,STR022,58,36,2026-08-06,Beauty Item 428,Beauty,"Cunningham, Newton and Allen",5731,ShopSmart Awka,Awka,Anambra,East,332398,1.6111111111111112,Medium,0,65
+INV00429,PROD0429,STR008,78,18,2026-08-15,Beauty Item 429,Beauty,Rowe Inc,8734,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,681252,4.333333333333333,Medium,0,56
+INV00430,PROD0430,STR010,39,34,2026-10-09,Home Item 430,Home,"Hodge, Keller and Newton",20644,ShopSmart Abuja,Abuja,Abuja,North,805116,1.1470588235294117,Medium,0,1
+INV00431,PROD0431,STR019,288,47,2026-09-15,Fashion Item 431,Fashion,"Reid, Hawkins and Ramos",23408,ShopSmart Kaduna,Kaduna,Kaduna,South,6741504,6.127659574468085,High,0,25
+INV00432,PROD0432,STR002,484,18,2026-08-07,Home Item 432,Home,Jones-Vaughn,3269,ShopSmart Kano,Kano,Kano,West,1582196,26.88888888888889,High,0,64
+INV00433,PROD0433,STR019,179,27,2026-07-15,Beauty Item 433,Beauty,"Wilson, Hansen and Castaneda",22001,ShopSmart Kaduna,Kaduna,Kaduna,South,3938179,6.62962962962963,High,0,87
+INV00434,PROD0434,STR002,265,5,2026-08-13,Electronics Item 434,Electronics,Joyce Ltd,33417,ShopSmart Kano,Kano,Kano,West,8855505,53.0,High,0,58
+INV00435,PROD0435,STR017,261,22,2026-09-03,Electronics Item 435,Electronics,Dominguez-Ruiz,19073,ShopSmart Abuja,Abuja,Abuja,South,4978053,11.863636363636363,High,0,37
+INV00436,PROD0436,STR003,329,17,2026-07-31,Groceries Item 436,Groceries,Thompson Inc,20117,ShopSmart Lagos,Lagos,Lagos,South,6618493,19.352941176470587,High,0,71
+INV00437,PROD0437,STR008,82,45,2026-09-18,Home Item 437,Home,"Chandler, Weiss and Johns",14038,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,1151116,1.8222222222222222,Medium,0,22
+INV00438,PROD0438,STR024,390,13,2026-10-06,Fashion Item 438,Fashion,"Jones, Boyd and Baker",46189,ShopSmart Ibadan,Ibadan,Oyo,East,18013710,30.0,High,0,4
+INV00439,PROD0439,STR009,216,26,2026-09-18,Beauty Item 439,Beauty,"Mckenzie, Blackwell and Smith",33018,ShopSmart Ibadan,Ibadan,Oyo,South,7131888,8.307692307692308,High,0,22
+INV00440,PROD0440,STR003,110,8,2026-08-27,Home Item 440,Home,Jones-Edwards,9665,ShopSmart Lagos,Lagos,Lagos,South,1063150,13.75,High,0,44
+INV00441,PROD0441,STR024,237,27,2026-09-20,Electronics Item 441,Electronics,"Arnold, Roberts and Webb",14723,ShopSmart Ibadan,Ibadan,Oyo,East,3489351,8.777777777777779,High,0,20
+INV00442,PROD0442,STR024,496,43,2026-07-15,Beauty Item 442,Beauty,Williams PLC,47726,ShopSmart Ibadan,Ibadan,Oyo,East,23672096,11.534883720930232,High,0,87
+INV00443,PROD0443,STR022,467,5,2026-08-27,Beauty Item 443,Beauty,Harris and Sons,16578,ShopSmart Awka,Awka,Anambra,East,7741926,93.4,High,0,44
+INV00444,PROD0444,STR010,78,17,2026-09-24,Groceries Item 444,Groceries,Gallegos-Martin,41045,ShopSmart Abuja,Abuja,Abuja,North,3201510,4.588235294117647,Medium,0,16
+INV00445,PROD0445,STR009,386,43,2026-07-25,Electronics Item 445,Electronics,"Turner, Allen and Foster",41566,ShopSmart Ibadan,Ibadan,Oyo,South,16044476,8.976744186046512,High,0,77
+INV00446,PROD0446,STR014,39,41,2026-08-10,Fashion Item 446,Fashion,Reese Group,49735,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,1939665,0.9512195121951219,Low,2,61
+INV00447,PROD0447,STR020,248,46,2026-09-18,Home Item 447,Home,"Manning, Hanson and Scott",6421,ShopSmart Asaba,Asaba,Delta,North,1592408,5.391304347826087,High,0,22
+INV00448,PROD0448,STR021,111,8,2026-08-30,Fashion Item 448,Fashion,Peters Group,30014,ShopSmart Lagos,Lagos,Lagos,West,3331554,13.875,High,0,41
+INV00449,PROD0449,STR020,492,22,2026-07-21,Electronics Item 449,Electronics,Berger Group,43141,ShopSmart Asaba,Asaba,Delta,North,21225372,22.363636363636363,High,0,81
+INV00450,PROD0450,STR025,297,13,2026-10-02,Home Item 450,Home,"Jones, Henry and Gill",25113,ShopSmart Asaba,Asaba,Delta,West,7458561,22.846153846153847,High,0,8
+INV00451,PROD0451,STR015,409,33,2026-08-13,Home Item 451,Home,"Morrison, Hess and Reyes",37730,ShopSmart Lagos,Lagos,Lagos,North,15431570,12.393939393939394,High,0,58
+INV00452,PROD0452,STR013,199,27,2026-08-06,Fashion Item 452,Fashion,Goodwin Group,8081,ShopSmart Lagos,Lagos,Lagos,East,1608119,7.37037037037037,High,0,65
+INV00453,PROD0453,STR005,41,22,2026-08-29,Fashion Item 453,Fashion,"Flores, Alvarado and Boyle",16628,ShopSmart Enugu,Enugu,Enugu,South,681748,1.8636363636363635,Medium,0,42
+INV00454,PROD0454,STR014,380,24,2026-07-27,Beauty Item 454,Beauty,Johnson Inc,3291,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,1250580,15.833333333333334,High,0,75
+INV00455,PROD0455,STR006,258,5,2026-08-02,Beauty Item 455,Beauty,Jensen Ltd,16227,ShopSmart Kaduna,Kaduna,Kaduna,East,4186566,51.6,High,0,69
+INV00456,PROD0456,STR008,482,16,2026-07-29,Groceries Item 456,Groceries,"Allen, Lewis and Hoover",30445,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,14674490,30.125,High,0,73
+INV00457,PROD0457,STR018,376,44,2026-07-17,Groceries Item 457,Groceries,Watson-Ward,36197,ShopSmart Ibadan,Ibadan,Oyo,East,13610072,8.545454545454545,High,0,85
+INV00458,PROD0458,STR021,145,37,2026-08-21,Home Item 458,Home,Patel-Villanueva,27360,ShopSmart Lagos,Lagos,Lagos,West,3967200,3.918918918918919,Medium,0,50
+INV00459,PROD0459,STR012,170,21,2026-08-14,Groceries Item 459,Groceries,Harper-Cox,19832,ShopSmart Abeokuta,Abeokuta,Ogun,South,3371440,8.095238095238095,High,0,57
+INV00460,PROD0460,STR016,387,41,2026-07-25,Electronics Item 460,Electronics,"Douglas, Green and Cisneros",25253,ShopSmart Abeokuta,Abeokuta,Ogun,East,9772911,9.439024390243903,High,0,77
+INV00461,PROD0461,STR006,105,5,2026-10-06,Fashion Item 461,Fashion,Rivas-Jacobs,5001,ShopSmart Kaduna,Kaduna,Kaduna,East,525105,21.0,High,0,4
+INV00462,PROD0462,STR021,459,13,2026-07-15,Home Item 462,Home,"Mccarthy, Tucker and Hall",5516,ShopSmart Lagos,Lagos,Lagos,West,2531844,35.30769230769231,High,0,87
+INV00463,PROD0463,STR025,27,12,2026-07-15,Electronics Item 463,Electronics,Mccullough-Gonzalez,41358,ShopSmart Asaba,Asaba,Delta,West,1116666,2.25,Medium,0,87
+INV00464,PROD0464,STR024,68,17,2026-09-16,Home Item 464,Home,"Ochoa, Wilkinson and Rasmussen",21689,ShopSmart Ibadan,Ibadan,Oyo,East,1474852,4.0,Medium,0,24
+INV00465,PROD0465,STR012,446,17,2026-09-09,Groceries Item 465,Groceries,"Nelson, Henry and Hernandez",22438,ShopSmart Abeokuta,Abeokuta,Ogun,South,10007348,26.235294117647058,High,0,31
+INV00466,PROD0466,STR024,13,19,2026-07-18,Fashion Item 466,Fashion,Gordon-Murray,27343,ShopSmart Ibadan,Ibadan,Oyo,East,355459,0.6842105263157895,Low,6,84
+INV00467,PROD0467,STR003,363,15,2026-09-19,Electronics Item 467,Electronics,Gonzalez LLC,24964,ShopSmart Lagos,Lagos,Lagos,South,9061932,24.2,High,0,21
+INV00468,PROD0468,STR004,70,34,2026-07-29,Electronics Item 468,Electronics,Silva Ltd,12880,ShopSmart Asaba,Asaba,Delta,South,901600,2.0588235294117645,Medium,0,73
+INV00469,PROD0469,STR016,179,10,2026-07-31,Beauty Item 469,Beauty,Ibarra Inc,580,ShopSmart Abeokuta,Abeokuta,Ogun,East,103820,17.9,High,0,71
+INV00470,PROD0470,STR025,324,34,2026-09-05,Groceries Item 470,Groceries,Collins Inc,1042,ShopSmart Asaba,Asaba,Delta,West,337608,9.529411764705882,High,0,35
+INV00471,PROD0471,STR008,238,9,2026-09-05,Home Item 471,Home,Richmond-Hull,28005,ShopSmart Port Harcourt,Port Harcourt,Rivers,North,6665190,26.444444444444443,High,0,35
+INV00472,PROD0472,STR012,203,34,2026-08-24,Groceries Item 472,Groceries,Mitchell-Bennett,33865,ShopSmart Abeokuta,Abeokuta,Ogun,South,6874595,5.970588235294118,High,0,47
+INV00473,PROD0473,STR005,239,14,2026-07-16,Fashion Item 473,Fashion,Mack-Simpson,42034,ShopSmart Enugu,Enugu,Enugu,South,10046126,17.071428571428573,High,0,86
+INV00474,PROD0474,STR013,125,47,2026-08-05,Fashion Item 474,Fashion,Macdonald-Sanders,30206,ShopSmart Lagos,Lagos,Lagos,East,3775750,2.6595744680851063,Medium,0,66
+INV00475,PROD0475,STR003,323,50,2026-09-02,Beauty Item 475,Beauty,Smith PLC,15567,ShopSmart Lagos,Lagos,Lagos,South,5028141,6.46,High,0,38
+INV00476,PROD0476,STR021,266,46,2026-07-26,Groceries Item 476,Groceries,Douglas-Parker,1916,ShopSmart Lagos,Lagos,Lagos,West,509656,5.782608695652174,High,0,76
+INV00477,PROD0477,STR002,53,12,2026-09-06,Beauty Item 477,Beauty,"Lara, Andrews and Lambert",3442,ShopSmart Kano,Kano,Kano,West,182426,4.416666666666667,Medium,0,34
+INV00478,PROD0478,STR006,28,50,2026-10-07,Home Item 478,Home,Dean Ltd,17547,ShopSmart Kaduna,Kaduna,Kaduna,East,491316,0.56,Low,22,3
+INV00479,PROD0479,STR017,10,29,2026-08-04,Beauty Item 479,Beauty,Williams Group,41571,ShopSmart Abuja,Abuja,Abuja,South,415710,0.3448275862068966,Low,19,67
+INV00480,PROD0480,STR025,124,9,2026-08-25,Electronics Item 480,Electronics,Perez LLC,37833,ShopSmart Asaba,Asaba,Delta,West,4691292,13.777777777777779,High,0,46
+INV00481,PROD0481,STR004,332,46,2026-10-05,Beauty Item 481,Beauty,Garcia PLC,35665,ShopSmart Asaba,Asaba,Delta,South,11840780,7.217391304347826,High,0,5
+INV00482,PROD0482,STR003,221,24,2026-08-20,Fashion Item 482,Fashion,Kane Inc,40717,ShopSmart Lagos,Lagos,Lagos,South,8998457,9.208333333333334,High,0,51
+INV00483,PROD0483,STR007,374,35,2026-07-30,Fashion Item 483,Fashion,"Robinson, Clark and Perez",21465,ShopSmart Ibadan,Ibadan,Oyo,North,8027910,10.685714285714285,High,0,72
+INV00484,PROD0484,STR021,109,49,2026-09-14,Fashion Item 484,Fashion,Hansen-Strickland,7832,ShopSmart Lagos,Lagos,Lagos,West,853688,2.2244897959183674,Medium,0,26
+INV00485,PROD0485,STR004,357,37,2026-07-22,Groceries Item 485,Groceries,"Mason, Alexander and Clarke",22038,ShopSmart Asaba,Asaba,Delta,South,7867566,9.64864864864865,High,0,80
+INV00486,PROD0486,STR004,457,40,2026-08-09,Home Item 486,Home,Miller Inc,9398,ShopSmart Asaba,Asaba,Delta,South,4294886,11.425,High,0,62
+INV00487,PROD0487,STR020,357,27,2026-08-29,Electronics Item 487,Electronics,Vaughn LLC,30221,ShopSmart Asaba,Asaba,Delta,North,10788897,13.222222222222221,High,0,42
+INV00488,PROD0488,STR002,376,34,2026-07-30,Groceries Item 488,Groceries,Lopez-Lowe,1894,ShopSmart Kano,Kano,Kano,West,712144,11.058823529411764,High,0,72
+INV00489,PROD0489,STR012,161,33,2026-09-23,Home Item 489,Home,"Bryant, Cooper and Spencer",36728,ShopSmart Abeokuta,Abeokuta,Ogun,South,5913208,4.878787878787879,Medium,0,17
+INV00490,PROD0490,STR022,465,48,2026-08-14,Electronics Item 490,Electronics,Avila Ltd,7424,ShopSmart Awka,Awka,Anambra,East,3452160,9.6875,High,0,57
+INV00491,PROD0491,STR003,301,43,2026-10-01,Fashion Item 491,Fashion,Brown-Robinson,47741,ShopSmart Lagos,Lagos,Lagos,South,14370041,7.0,High,0,9
+INV00492,PROD0492,STR009,146,43,2026-10-05,Electronics Item 492,Electronics,"Adams, Smith and Clayton",13810,ShopSmart Ibadan,Ibadan,Oyo,South,2016260,3.395348837209302,Medium,0,5
+INV00493,PROD0493,STR018,179,31,2026-08-02,Groceries Item 493,Groceries,Allen-Velasquez,39208,ShopSmart Ibadan,Ibadan,Oyo,East,7018232,5.774193548387097,High,0,69
+INV00494,PROD0494,STR020,425,31,2026-08-28,Beauty Item 494,Beauty,"Stone, King and Walker",4760,ShopSmart Asaba,Asaba,Delta,North,2023000,13.709677419354838,High,0,43
+INV00495,PROD0495,STR010,54,47,2026-09-10,Groceries Item 495,Groceries,Simpson Inc,36438,ShopSmart Abuja,Abuja,Abuja,North,1967652,1.148936170212766,Medium,0,30
+INV00496,PROD0496,STR006,94,45,2026-10-06,Fashion Item 496,Fashion,Mullen-Ward,34052,ShopSmart Kaduna,Kaduna,Kaduna,East,3200888,2.088888888888889,Medium,0,4
+INV00497,PROD0497,STR002,93,22,2026-08-10,Groceries Item 497,Groceries,"Brady, Rodriguez and Greer",14554,ShopSmart Kano,Kano,Kano,West,1353522,4.2272727272727275,Medium,0,61
+INV00498,PROD0498,STR001,45,6,2026-08-19,Home Item 498,Home,Collins-Stewart,29958,ShopSmart Abuja,Abuja,Abuja,East,1348110,7.5,High,0,52
+INV00499,PROD0499,STR020,99,16,2026-09-23,Fashion Item 499,Fashion,"Johnson, Brown and Strickland",6679,ShopSmart Asaba,Asaba,Delta,North,661221,6.1875,High,0,17
+INV00500,PROD0500,STR020,424,23,2026-09-02,Electronics Item 500,Electronics,Lucas and Sons,40152,ShopSmart Asaba,Asaba,Delta,North,17024448,18.434782608695652,High,0,38

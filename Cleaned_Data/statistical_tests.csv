@@ -1,0 +1,9 @@
+test,statistic,p_value,conclusion
+Kruskal-Wallis: order value by Store,27.5,0.2817,NO significant difference (consistent with random variation)
+Kruskal-Wallis: order value by Category,2.08,0.7208,NO significant difference (consistent with random variation)
+Kruskal-Wallis: order value by Membership level,0.7,0.706,NO significant difference (consistent with random variation)
+Kruskal-Wallis: order value by Region,5.46,0.1408,NO significant difference (consistent with random variation)
+Kruskal-Wallis: order value by Sales channel,2.48,0.1152,NO significant difference (consistent with random variation)
+Chi-square: return rate by Category,4.41,0.3529,NO significant difference (consistent with random variation)
+Chi-square: return rate by Sales channel,1.31,0.2517,NO significant difference (consistent with random variation)
+Chi-square: return rate by Store,28.45,0.2417,NO significant difference (consistent with random variation)

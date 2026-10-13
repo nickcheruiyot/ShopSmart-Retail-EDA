@@ -1,0 +1,22 @@
+check,records_failing,out_of,pct_failing,note
+orders.customer_id in customers,0,50000,0.0,
+orders.product_id in products,0,50000,0.0,
+orders.store_id in stores,0,50000,0.0,
+order_items.order_id in orders,0,50000,0.0,
+returns.order_id in orders,0,2500,0.0,
+inventory.product_id in products,0,500,0.0,
+inventory.store_id in stores,0,500,0.0,
+employees.store_id in stores,0,125,0.0,
+orders vs order_items: product_id agrees,0,50000,0.0,
+orders vs order_items: quantity agrees,0,50000,0.0,
+orders vs order_items: unit_price agrees,0,50000,0.0,
+orders vs order_items: discount agrees,0,50000,0.0,
+line_total = qty x price - discount (flat),0,50000,0.0,
+line_total = qty x price x (1 - discount%),39839,50000,79.68,"Discount behaves as a flat amount, not a percentage"
+order unit_price equals catalogue selling_price,50000,50000,100.0,Order prices are unrelated to catalogue prices
+order unit_price below product cost_price,12163,50000,24.33,Would mean selling at a loss
+catalogue selling_price below cost_price,0,500,0.0,
+return_date earlier than order_date,1252,2500,50.08,A return before the purchase is impossible
+return on a Cancelled or Pending order,1685,2500,67.4,Only completed orders can be returned
+refund_amount larger than line_total,270,2500,10.8,Refund exceeds what was paid
+order placed before customer registration,5159,50000,10.32,

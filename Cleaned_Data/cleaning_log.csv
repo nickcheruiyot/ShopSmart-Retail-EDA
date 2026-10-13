@@ -1,0 +1,27 @@
+step,table,issue_found,action_taken,rows_affected
+3.1,all,Mixed-case column names (e.g. Customer_ID),Converted to lower_snake_case,9
+3.1,customers / stores,"Ambiguous names (state, city, customer_segment)","Renamed to customer_state/city, store_state/city, membership_level",2
+3.2,all,Checked full-row and primary-key duplicates,"None found, no rows removed",0
+3.2,customers,Same email on different customer IDs,"Flagged with email_duplicated, kept",96
+3.2,returns,Orders with more than one return record (each order holds one item),"Flagged, kept",114
+3.3,all,Checked nulls and placeholder text,"No missing values found, no imputation needed",0
+3.4,customers,registration_date stored as text (M/D/YYYY),Converted to datetime,5000
+3.4,orders,order_date stored as text (M/D/YYYY),Converted to datetime,50000
+3.4,returns,return_date stored as text (M/D/YYYY),Converted to datetime,2500
+3.4,employees,hire_date stored as text (M/D/YYYY),Converted to datetime,125
+3.4,stores,opening_date stored as text (M/D/YYYY),Converted to datetime,25
+3.4,inventory,last_restock_date stored as text (M/D/YYYY),Converted to datetime,500
+3.4,7 tables,Low-cardinality text fields held as plain strings,Cast to category dtype,7
+3.4,5 tables,Checked currency fields are numeric,"All already numeric, no change",0
+3.5,customers,"Phone numbers in many formats (brackets, dots, extensions)",Added phone_digits (digits only) and phone_format_ok flag,5000
+3.5,suppliers,Phone values that are too short to be valid (e.g. '-4402'),"Flagged via phone_digits length, kept",80
+3.6,multiple,line_total = qty x price x (1 - discount%) FAILS,"Flagged in master dataset, rows kept (cause unknown, deletion would distort totals)",39839
+3.6,multiple,order unit_price equals catalogue selling_price FAILS,"Flagged in master dataset, rows kept (cause unknown, deletion would distort totals)",50000
+3.6,multiple,order unit_price below product cost_price FAILS,"Flagged in master dataset, rows kept (cause unknown, deletion would distort totals)",12163
+3.6,multiple,return_date earlier than order_date FAILS,"Flagged in master dataset, rows kept (cause unknown, deletion would distort totals)",1252
+3.6,multiple,return on a Cancelled or Pending order FAILS,"Flagged in master dataset, rows kept (cause unknown, deletion would distort totals)",1685
+3.6,multiple,refund_amount larger than line_total FAILS,"Flagged in master dataset, rows kept (cause unknown, deletion would distort totals)",270
+3.6,multiple,order placed before customer registration FAILS,"Flagged in master dataset, rows kept (cause unknown, deletion would distort totals)",5159
+3.6,all,Foreign keys checked,All 8 foreign-key checks passed,0
+3.6,stores,Duplicate store names and regions that do not follow geography,Use store_id as the identifier,25
+3.6,suppliers,No supplier_id in products,Linked via brand = supplier_name minus ' Supplies',489
